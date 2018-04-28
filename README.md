@@ -31,7 +31,7 @@ tabbar
 @property (nonatomic, weak) id <QWTabBarDelegate>delegate;
  
   创建方法
- >  - (instancetype)initWithTitles:(NSArray <NSString *> *)titles itemImages:(NSArray *)itemImgs selectImages:(NSArray *)selectImages;
+ >  -(instancetype)initWithTitles:(NSArray <NSString *> *)titles itemImages:(NSArray *)itemImgs selectImages:(NSArray *)selectImages;
  
  设置角标
- > - (void)setBadge:(NSInteger)count index:(NSUInteger)index;
+ > -(void)setBadge:(NSInteger)count index:(NSUInteger)index;
