@@ -4,8 +4,9 @@
 ![TabBar.gif](https://upload-images.jianshu.io/upload_images/2342189-670c46912b066016.gif?imageMogr2/auto-orient/strip)
 
 
-///tabbar
-@property (nonatomic, readonly, strong) NSMutableArray <QWTabBarItem *> *tabBarItems;
+  > ///tabbar
+   @property (nonatomic, readonly, strong) NSMutableArray <QWTabBarItem *> *tabBarItems;
+
 ///标题
 @property (nonatomic, copy) NSArray <NSString *> *titles;
 ///默认图标 UIImage 类型 或者 NSString 类型
