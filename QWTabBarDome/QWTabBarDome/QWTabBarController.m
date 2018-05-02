@@ -46,6 +46,7 @@ static QWTabBarController *tabbarCtl;
         UIViewController *vc = [[NSClassFromString(array[i]) alloc] init];
       
         vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+        // 如果想用系统的 解除该注释 删除 【****】代码
 //        vc.tabBarItem.title = titles[i];
 //        vc.tabBarItem.image = [UIImage imageNamed:imgArray[i]];
 //        vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectImageArray[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -53,10 +54,13 @@ static QWTabBarController *tabbarCtl;
     }
     self.viewControllers = array;
     self.tabBar.tintColor = [UIColor orangeColor];
-    /// 将自定义的覆盖到原来的tabBar上面
+   
+//    // 以下为【****】
+//    /// 将自定义的覆盖到原来的tabBar上面
     self.qwTabBar = [[QWTabBar alloc] initWithTitles:titles itemImages:imgArray selectImages:selectImageArray];
     self.qwTabBar.frame = self.tabBar.bounds;
     self.qwTabBar.backgroundColor = [UIColor clearColor];
+    /// 设置委托
     self.qwTabBar.delegate = self;
     self.qwTabBar.tintColor = [UIColor orangeColor];
     [self.tabBar addSubview:self.qwTabBar];

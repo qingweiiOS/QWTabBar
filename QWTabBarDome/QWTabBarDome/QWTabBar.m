@@ -35,7 +35,7 @@
         animationPath = [[UIBezierPath alloc] init];
         shapeLayer = [CAShapeLayer layer];
         _defColor = [UIColor blackColor];
-        _tintColor = [UIColor redColor];
+        _tintColor = [UIColor whiteColor];
         _titles = titles;
         _itemImages = itemImgs;
         _selectItemImages = selectImages;
@@ -44,6 +44,7 @@
     }
     return self;
 }
+
 - (void)addItems{
     
     /// 取最小的count 防止越界
@@ -117,6 +118,7 @@
         return;
     }
     _tintColor = tintColor;
+     shapeLayer.strokeColor = _tintColor.CGColor;
     for (QWTabBarItem * tempItem in _tabBarItems) {
         if(tempItem.isSelect){
             tempItem.titleLab.textColor = _tintColor;
