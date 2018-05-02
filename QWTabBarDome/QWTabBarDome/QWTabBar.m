@@ -76,7 +76,7 @@
         item.selectImage = selectimages;
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(selectItem:)];
         [item addGestureRecognizer:tap];
-//        item.badge = - 5;
+        //        item.badge = - 5;
         [_tabBarItems addObject:item];
         [self addSubview:item];
         ///默认选中
@@ -94,7 +94,7 @@
     if(_selectIndex == selectIndex){
         return;
     }
-   
+    
     [self pathAnimation:_selectIndex toIndex:selectIndex];
     _selectIndex = selectIndex;
     _tabBarItem.isSelect = NO;
@@ -122,7 +122,7 @@
         return;
     }
     _tintColor = tintColor;
-     shapeLayer.strokeColor = _tintColor.CGColor;
+    shapeLayer.strokeColor = _tintColor.CGColor;
     for (QWTabBarItem * tempItem in _tabBarItems) {
         if(tempItem.isSelect){
             tempItem.titleLab.textColor = _tintColor;
@@ -171,33 +171,44 @@
     //计算一个圆的周长
     CGFloat s = 2*M_PI*RADIUS;
     
-    /// 判断动画执行方向
+    /// 判断动画执行方向 顺时针 或 逆时针
     BOOL clockwise = indexPoor<0?YES:NO;
     /// 移除之前的路径
     [animationPath removeAllPoints];
     
-    /// 添加路径
+    /// 添加路径 两个圆圈
     [animationPath addArcWithCenter:center1 radius:RADIUS startAngle:M_PI_2-0.001 endAngle:M_PI*2+M_PI_2 clockwise:clockwise];
     [animationPath addArcWithCenter:center2 radius:RADIUS startAngle:M_PI_2-0.001 endAngle:M_PI*2+M_PI_2 clockwise:clockwise];
     
     shapeLayer.path = animationPath.CGPath;
-    
+    //strokeEnd 绘制路径
     CABasicAnimation *strokeEndAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
     strokeEndAnimation.duration = 0.5;
+    /*
+     fromValue = 0，toValue = 1 不一定是0到1 也可以是1-0 也可以是其他 自行实验
+     就是从开始位置（fromValue）0 一直绘制toValue（1） 效果就是一条路径慢慢显示
+     */
     strokeEndAnimation.fromValue = @0;
     strokeEndAnimation.toValue = @1;
+    
     strokeEndAnimation.removedOnCompletion = clockwise;
     strokeEndAnimation.fillMode =kCAFillModeForwards;
     strokeEndAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
-    
+    //strokeStart 清除路径
     CABasicAnimation *strokeStartAnimation = [CABasicAnimation animationWithKeyPath:@"strokeStart"];
+    
     strokeStartAnimation.duration = strokeEndAnimation.duration - 0.15;
-    strokeStartAnimation.fromValue = @0;
+   
     strokeStartAnimation.removedOnCompletion = clockwise;
     strokeStartAnimation.fillMode =kCAFillModeForwards;
-    
+    /*
+    fromValue = 0，toValue = 1 不一定是0到1 也可以是1-0 也可以是其他 自行实验
+    就是从开始位置（fromValue）0 一直清除到toValue（1） 效果就是一条路径慢慢的消失
+     */
+    strokeStartAnimation.fromValue = @0;
     strokeStartAnimation.toValue = @(1-(s/length));
     strokeStartAnimation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+
     
     CAAnimationGroup *animationGroup = [CAAnimationGroup animation];
     animationGroup.animations  = @[strokeEndAnimation,strokeStartAnimation];
@@ -220,7 +231,7 @@
 
 //// 对外方法
 - (void)setBadge:(NSInteger)count1 index:(NSUInteger)index{
-     QWTabBarBadge *badgeLab = [self viewWithTag:BADGETAG + index];
+    QWTabBarBadge *badgeLab = [self viewWithTag:BADGETAG + index];
     if(index>_tabBarItems.count){
         NSLog(@"设置角标  下标越界啦");
         return;
