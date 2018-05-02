@@ -12,9 +12,9 @@
 		4D0E740920941A3700D0034D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E740720941A3700D0034D /* LaunchScreen.storyboard */; };
 		4D0E740C20941A3700D0034D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E740B20941A3700D0034D /* main.m */; };
 		4D0E741E20941A6000D0034D /* QWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E741C20941A5F00D0034D /* QWTabBarController.m */; };
-		4D0E743620941D8C00D0034D /* QWTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E743020941D8C00D0034D /* QWTabBarBadge.m */; };
-		4D0E743720941D8C00D0034D /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E743120941D8C00D0034D /* QWTabBar.m */; };
-		4D0E743820941D8C00D0034D /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E743520941D8C00D0034D /* QWTabBarItem.m */; };
+		4D1F6EE82099D9F1004242E6 /* QWTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6EE22099D9F1004242E6 /* QWTabBarBadge.m */; };
+		4D1F6EE92099D9F1004242E6 /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6EE32099D9F1004242E6 /* QWTabBar.m */; };
+		4D1F6EEA2099D9F1004242E6 /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6EE72099D9F1004242E6 /* QWTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		4D0E740B20941A3700D0034D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D0E741C20941A5F00D0034D /* QWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTabBarController.m; sourceTree = "<group>"; };
 		4D0E741D20941A5F00D0034D /* QWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTabBarController.h; sourceTree = "<group>"; };
-		4D0E743020941D8C00D0034D /* QWTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBarBadge.m; path = QWTabBarDome/QWTabBarBadge.m; sourceTree = SOURCE_ROOT; };
-		4D0E743120941D8C00D0034D /* QWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBar.m; path = QWTabBarDome/QWTabBar.m; sourceTree = SOURCE_ROOT; };
-		4D0E743220941D8C00D0034D /* QWTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBarBadge.h; path = QWTabBarDome/QWTabBarBadge.h; sourceTree = SOURCE_ROOT; };
-		4D0E743320941D8C00D0034D /* QWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBar.h; path = QWTabBarDome/QWTabBar.h; sourceTree = SOURCE_ROOT; };
-		4D0E743420941D8C00D0034D /* QWTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBarItem.h; path = QWTabBarDome/QWTabBarItem.h; sourceTree = SOURCE_ROOT; };
-		4D0E743520941D8C00D0034D /* QWTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBarItem.m; path = QWTabBarDome/QWTabBarItem.m; sourceTree = SOURCE_ROOT; };
+		4D1F6EE22099D9F1004242E6 /* QWTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTabBarBadge.m; sourceTree = "<group>"; };
+		4D1F6EE32099D9F1004242E6 /* QWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTabBar.m; sourceTree = "<group>"; };
+		4D1F6EE42099D9F1004242E6 /* QWTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTabBarBadge.h; sourceTree = "<group>"; };
+		4D1F6EE52099D9F1004242E6 /* QWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTabBar.h; sourceTree = "<group>"; };
+		4D1F6EE62099D9F1004242E6 /* QWTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWTabBarItem.h; sourceTree = "<group>"; };
+		4D1F6EE72099D9F1004242E6 /* QWTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWTabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,12 @@
 		4D0E73FB20941A3600D0034D /* QWTabBarDome */ = {
 			isa = PBXGroup;
 			children = (
-				4D0E741220941A5800D0034D /* QWTabBar */,
+				4D1F6EE52099D9F1004242E6 /* QWTabBar.h */,
+				4D1F6EE32099D9F1004242E6 /* QWTabBar.m */,
+				4D1F6EE42099D9F1004242E6 /* QWTabBarBadge.h */,
+				4D1F6EE22099D9F1004242E6 /* QWTabBarBadge.m */,
+				4D1F6EE62099D9F1004242E6 /* QWTabBarItem.h */,
+				4D1F6EE72099D9F1004242E6 /* QWTabBarItem.m */,
 				4D0E741D20941A5F00D0034D /* QWTabBarController.h */,
 				4D0E741C20941A5F00D0034D /* QWTabBarController.m */,
 				4D0E73FC20941A3600D0034D /* AppDelegate.h */,
@@ -76,19 +81,6 @@
 				4D0E740B20941A3700D0034D /* main.m */,
 			);
 			path = QWTabBarDome;
-			sourceTree = "<group>";
-		};
-		4D0E741220941A5800D0034D /* QWTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				4D0E743320941D8C00D0034D /* QWTabBar.h */,
-				4D0E743120941D8C00D0034D /* QWTabBar.m */,
-				4D0E743220941D8C00D0034D /* QWTabBarBadge.h */,
-				4D0E743020941D8C00D0034D /* QWTabBarBadge.m */,
-				4D0E743420941D8C00D0034D /* QWTabBarItem.h */,
-				4D0E743520941D8C00D0034D /* QWTabBarItem.m */,
-			);
-			path = QWTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1F6EEA2099D9F1004242E6 /* QWTabBarItem.m in Sources */,
 				4D0E741E20941A6000D0034D /* QWTabBarController.m in Sources */,
-				4D0E743820941D8C00D0034D /* QWTabBarItem.m in Sources */,
+				4D1F6EE82099D9F1004242E6 /* QWTabBarBadge.m in Sources */,
 				4D0E740C20941A3700D0034D /* main.m in Sources */,
-				4D0E743720941D8C00D0034D /* QWTabBar.m in Sources */,
-				4D0E743620941D8C00D0034D /* QWTabBarBadge.m in Sources */,
 				4D0E73FE20941A3600D0034D /* AppDelegate.m in Sources */,
+				4D1F6EE92099D9F1004242E6 /* QWTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

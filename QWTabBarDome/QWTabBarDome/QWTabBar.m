@@ -142,7 +142,7 @@
     [animationPath removeAllPoints];
     [animationPath addArcWithCenter:center radius:RADIUS startAngle:M_PI_2 endAngle:M_PI*2+M_PI_2 clockwise:YES];
     shapeLayer.path = animationPath.CGPath;
-    shapeLayer.strokeColor = [UIColor orangeColor].CGColor;
+    shapeLayer.strokeColor = self.tintColor.CGColor;
     shapeLayer.lineCap = kCALineCapRound;
     shapeLayer.lineWidth = 1;
     shapeLayer.fillColor = [UIColor clearColor].CGColor;
@@ -150,7 +150,7 @@
 }
 - (void)pathAnimation:(NSInteger)formIndex toIndex:(NSInteger)toIndex{
     
-    self.userInteractionEnabled = NO;
+    self.superview.userInteractionEnabled = NO;
     //当前中心点
     CGFloat x1 = K_WIDTH_QW/count*(formIndex+0.5);
     CGPoint center1 = CGPointMake(x1,19);
@@ -205,7 +205,7 @@
 ///动画完成
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
     //    [self setBePath:_selectIndex];
-    self.userInteractionEnabled = YES;
+    self.superview.userInteractionEnabled = YES;
     QWTabBarItem *tapItem = (QWTabBarItem *)[self viewWithTag:_selectIndex + ITEMTAG];
     tapItem.isSelect = YES;
     tapItem.titleLab.textColor = _tintColor;
