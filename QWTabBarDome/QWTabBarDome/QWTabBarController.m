@@ -58,8 +58,6 @@ static QWTabBarController *tabbarCtl;
 //    // 以下为【****】
 //    /// 将自定义的覆盖到原来的tabBar上面
     self.qwTabBar = [[QWTabBar alloc] initWithTitles:titles itemImages:imgArray selectImages:selectImageArray];
-    self.qwTabBar.frame = self.tabBar.bounds;
-    self.qwTabBar.backgroundColor = [UIColor clearColor];
     /// 设置委托
     self.qwTabBar.delegate = self;
     self.qwTabBar.tintColor = [UIColor orangeColor];

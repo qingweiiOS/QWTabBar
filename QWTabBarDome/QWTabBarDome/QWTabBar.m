@@ -44,7 +44,11 @@
     }
     return self;
 }
-
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    self.frame = self.superview.bounds;
+    self.backgroundColor = [UIColor clearColor];
+}
 - (void)addItems{
     
     /// 取最小的count 防止越界
