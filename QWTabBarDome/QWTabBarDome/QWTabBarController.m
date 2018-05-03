@@ -55,7 +55,7 @@ static QWTabBarController *tabbarCtl;
     self.viewControllers = array;
     self.tabBar.tintColor = [UIColor orangeColor];
    
-//    // 以下为【****】
+//    // 以下为【****】代码 哈哈哈哈哈哈
 //    /// 将自定义的覆盖到原来的tabBar上面
     self.qwTabBar = [[QWTabBar alloc] initWithTitles:titles itemImages:imgArray selectImages:selectImageArray];
     /// 设置委托
@@ -66,6 +66,7 @@ static QWTabBarController *tabbarCtl;
     
     
 }
+// 以下为【****】代码 哈哈哈哈哈哈
 - (void)selectIndex:(NSInteger)index{
     /// 通知 切换视图控制器
     [self setSelectedIndex:index];
