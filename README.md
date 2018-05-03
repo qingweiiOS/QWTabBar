@@ -1,6 +1,8 @@
+
 # QWTabBar
 # 参考 [(BATabBarController)](https://github.com/antiguab/BATabBarController)
-￼
+￼ 支持pod
+> pod 'QWTabBar'
 ![TabBar.gif](https://upload-images.jianshu.io/upload_images/2342189-670c46912b066016.gif?imageMogr2/auto-orient/strip)
 
 
