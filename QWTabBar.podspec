@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'QWTabBar'
-s.version          = '0.0.1'
+s.version          = '0.0.2'
 s.summary          = 'QWTabBar'
 
 #   This description is used to generate tags and improve search results.
