@@ -1,9 +1,9 @@
 //
 //  QWTabBar.h
-//  testAnimation
+//  QWTabBar
 //
-//  Created by 卿伟 on 2018/4/26.
-//  Copyright © 2018年 卿伟. All rights reserved.
+//  Created by xxxx on 2018/4/26.
+//  Copyright © 2018年 xxxxx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

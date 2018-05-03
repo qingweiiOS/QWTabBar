@@ -1,7 +1,7 @@
 //
 //  QWTabBarController.h
-//  Mehmet
-//  微微卿 制作
+//  QWTabBar
+//
 //  Created by jonh on 2017/8/14.
 //  Copyright © 2017年 jonh. All rights reserved.
 //
