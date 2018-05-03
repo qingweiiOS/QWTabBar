@@ -68,6 +68,8 @@
 				4D1F6EFD209AF128004242E6 /* Class */,
 				4D0E73FC20941A3600D0034D /* AppDelegate.h */,
 				4D0E73FD20941A3600D0034D /* AppDelegate.m */,
+				4D1F6F00209AF128004242E6 /* QWTabBarController.h */,
+				4D1F6F04209AF128004242E6 /* QWTabBarController.m */,
 				4D0E740520941A3700D0034D /* Assets.xcassets */,
 				4D0E740720941A3700D0034D /* LaunchScreen.storyboard */,
 				4D0E740A20941A3700D0034D /* Info.plist */,
@@ -79,14 +81,12 @@
 		4D1F6EFD209AF128004242E6 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				4D1F6EFE209AF128004242E6 /* QWTabBarItem.h */,
-				4D1F6EFF209AF128004242E6 /* QWTabBarBadge.h */,
-				4D1F6F00209AF128004242E6 /* QWTabBarController.h */,
 				4D1F6F01209AF128004242E6 /* QWTabBar.h */,
-				4D1F6F02209AF128004242E6 /* QWTabBarItem.m */,
-				4D1F6F03209AF128004242E6 /* QWTabBarBadge.m */,
-				4D1F6F04209AF128004242E6 /* QWTabBarController.m */,
 				4D1F6F05209AF128004242E6 /* QWTabBar.m */,
+				4D1F6EFE209AF128004242E6 /* QWTabBarItem.h */,
+				4D1F6F02209AF128004242E6 /* QWTabBarItem.m */,
+				4D1F6EFF209AF128004242E6 /* QWTabBarBadge.h */,
+				4D1F6F03209AF128004242E6 /* QWTabBarBadge.m */,
 			);
 			name = Class;
 			path = ../../Class;
