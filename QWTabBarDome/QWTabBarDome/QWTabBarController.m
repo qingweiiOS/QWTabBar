@@ -27,14 +27,14 @@ static QWTabBarController *tabbarCtl;
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
-    [self addChildViewControllers];
+     [super viewDidLoad];
+     self.view.backgroundColor = [UIColor whiteColor];
+     [self addChildViewControllers];
 }
 - (void)addChildViewControllers
 {
     
-    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@"UIViewController",@"UIViewController",@"UIViewController",@"UIViewController",@"UIViewController"]];
+    NSMutableArray *array = [NSMutableArray arrayWithArray:@[@"UIViewController",@"UIViewController",@"UIViewController",@"UIViewController",@"TestViewController"]];
     NSArray *imgArray = @[@"homePage",@"task",@"complaint",@"home_activity",@"me"];
     NSArray *selectImageArray = @[@"homePage_select",@"task_select",@"complaint_select",@"home_activity_select",@"me_select"];
     NSArray *titles = @[@"首页",@"任务",@"动态",@"活动",@"我的"];
@@ -42,9 +42,10 @@ static QWTabBarController *tabbarCtl;
     for(int i =0;i<array.count;i++)
     {
         UIViewController *vc = [[NSClassFromString(array[i]) alloc] init];
-      
-        vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
-        // 如果想用系统的 解除该注释 删除 【****】代码
+      /// 最好在这里不要设置与VC视图显示相关的内容 （比如：背景颜色） 如果设置了 该VC 的viewDidLoad 方法就会加载 这不是我们想看到的
+//        vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1];
+        
+        // 如果想用系统的 解除以下3行注释 删除 【****】代码
 //        vc.tabBarItem.title = titles[i];
 //        vc.tabBarItem.image = [UIImage imageNamed:imgArray[i]];
 //        vc.tabBarItem.selectedImage = [[UIImage imageNamed:selectImageArray[i]] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -60,8 +61,7 @@ static QWTabBarController *tabbarCtl;
     self.qwTabBar.delegate = self;
     self.qwTabBar.tintColor = [UIColor orangeColor];
     [self.tabBar addSubview:self.qwTabBar];
-    
-    
+   
     
 }
 // 以下为【****】代码 哈哈哈哈哈哈
@@ -72,10 +72,10 @@ static QWTabBarController *tabbarCtl;
 - (void)setSelectedIndex:(NSUInteger)selectedIndex{
     
     [super setSelectedIndex:selectedIndex];
-
-    self.qwTabBar.selectIndex = selectedIndex;
-   
-    
+     if(self.qwTabBar)
+     {
+       self.qwTabBar.selectIndex = selectedIndex;
+     }
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,5 +1,5 @@
 
-# QWTabBar
+# QWTabBar 目前只实用于横屏
 # 参考 [(BATabBarController)](https://github.com/antiguab/BATabBarController)
 ￼ 支持pod
  > pod 'QWTabBar'
