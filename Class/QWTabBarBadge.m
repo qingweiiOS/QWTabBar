@@ -40,7 +40,7 @@
         badgeStr = @"99+";
     }
     else if(badge <=0){
-        self.hidden = NO;
+        self.hidden = YES;
         return;
     }
     else {
