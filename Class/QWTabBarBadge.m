@@ -41,6 +41,7 @@
     }
     else if(badge <=0){
         self.hidden = YES;
+        self.text = @"";
         return;
     }
     else {
