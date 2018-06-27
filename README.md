@@ -6,7 +6,7 @@
 
 > 具体使用看dome
 
-![TabBar.gif](https://upload-images.jianshu.io/upload_images/2342189-670c46912b066016.gif?imageMogr2/auto-orient/strip)
+![TabBar.gif](https://github.com/qingweiiOS/QWTabBar/blob/master/BrowserPreview_tmp.gif)
 
 
 tabbar
