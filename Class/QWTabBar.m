@@ -7,6 +7,7 @@
 //
 
 #import "QWTabBar.h"
+#import <Masonry.h>
 #define K_WIDTH_QW   [UIScreen mainScreen].bounds.size.width
 #define ITEMTAG 1000
 #define BADGETAG 10086
@@ -39,22 +40,44 @@
         _selectItemImages = selectImages;
         _selectIndex = 0;
         [self addItems];
+        [[NSNotificationCenter defaultCenter] addObserver:self  selector:@selector(xz) name:UIApplicationDidChangeStatusBarOrientationNotification object:nil];
     }
     return self;
 }
+- (void)xz{
+    [UIView animateWithDuration:0.3 animations:^{
+         self.frame = self.superview.bounds;
+    }];
+    [self pathAnimation:_selectIndex toIndex:_selectIndex];
+    
+  
+   
+}
 - (void)layoutSubviews{
-    [super layoutSubviews];
-    self.frame = self.superview.bounds;
-    self.backgroundColor = [UIColor clearColor];
+     [super layoutSubviews];
+      self.frame = self.superview.bounds;
+     self.backgroundColor = [UIColor clearColor];
 }
 - (void)addItems{
-    
     /// 取图标数组和title数组最小的count 防止越界
     count = _itemImages.count<_selectItemImages.count?_itemImages.count:_selectItemImages.count;
     count = count<_titles.count?count:_titles.count;
     _tabBarItems = [NSMutableArray arrayWithCapacity:count];
+    QWTabBarItem *temItem;
     for (int i=0;i<count;i++){
-        QWTabBarItem *item = [[QWTabBarItem alloc] initWithFrame:CGRectMake(i*K_WIDTH_QW/count, 0, K_WIDTH_QW/count , 49)];
+//        WithFrame:CGRectMake(i*K_WIDTH_QW/count, 0, K_WIDTH_QW/count , 49)
+        QWTabBarItem *item = [[QWTabBarItem alloc] init];
+        [self addSubview:item];
+        [item mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.top.bottom.mas_offset(0);
+            if(temItem){
+                make.left.equalTo(temItem.mas_right).mas_offset(0);
+            }else{
+               make.left.mas_offset(0);
+            }
+            make.width.equalTo(self).multipliedBy(1.0/self->count);
+        }];
+        temItem = item;
         item.title = _titles[i];
         item.tag = ITEMTAG + i;
         id images = _itemImages[i];
@@ -76,7 +99,7 @@
         [item addGestureRecognizer:tap];
         //        item.badge = - 5;
         [_tabBarItems addObject:item];
-        [self addSubview:item];
+       
         ///默认选中
         if(i==0){
             self.selectIndex = 0;

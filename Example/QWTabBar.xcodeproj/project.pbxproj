@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A2BD9F18F23DB47FE7C8EE /* Pods_QWTabBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD241AEB314394882AA8CCA5 /* Pods_QWTabBar_Example.framework */; };
+		57898C06F87D5BC27C7E7E9B /* Pods_QWTabBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21735BCE023013ED5E925ED7 /* Pods_QWTabBar_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* IJSPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* IJSPAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* IJSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* IJSPViewController.m */; };
+		6003F59E195388D20070C39A /* QWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QWAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* QWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* QWViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		A5722BFCF54440C988303863 /* Pods_QWTabBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E09B2D4A52AD5A5A927F2103 /* Pods_QWTabBar_Tests.framework */; };
+		9AA13E0EC5D97AA8DDBAC734 /* Pods_QWTabBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B03474084933B5E9205A75 /* Pods_QWTabBar_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4D59B9B204CEEFD7E4A226DD /* Pods-QWTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		550966C445847396A867D7B3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5E7C4B9D9F427E8E97910315 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		21735BCE023013ED5E925ED7 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ED977607164162D0CB44D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		44B03474084933B5E9205A75 /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* QWTabBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWTabBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,10 +48,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* QWTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QWTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* IJSPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSPAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* IJSPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSPAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* IJSPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IJSPViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* IJSPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IJSPViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* QWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* QWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* QWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* QWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* QWTabBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWTabBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,13 +60,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7711296CAA165B856CB3D0FD /* Pods-QWTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		84C34B5F5DE6486CFD100CD6 /* Pods-QWTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		86A034DB7F237182CF755F36 /* Pods-QWTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5FE6FB4BBCCE2F9675D4826 /* QWTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QWTabBar.podspec; path = ../QWTabBar.podspec; sourceTree = "<group>"; };
-		B0454FFA56F62375F6E6D46C /* Pods-QWTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DD241AEB314394882AA8CCA5 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09B2D4A52AD5A5A927F2103 /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F619AFDFD6FFD997457597A6 /* Pods-QWTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		878868DF4A7C26898187FD64 /* QWTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QWTabBar.podspec; path = ../QWTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D17C1ACE9576E3E5CDB57BEB /* Pods-QWTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E3C55EF78E95611BB2B91B43 /* Pods-QWTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWTabBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +76,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				03A2BD9F18F23DB47FE7C8EE /* Pods_QWTabBar_Example.framework in Frameworks */,
+				57898C06F87D5BC27C7E7E9B /* Pods_QWTabBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,13 +87,24 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				A5722BFCF54440C988303863 /* Pods_QWTabBar_Tests.framework in Frameworks */,
+				9AA13E0EC5D97AA8DDBAC734 /* Pods_QWTabBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EF34B5B8A9009FB7674FEE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3C55EF78E95611BB2B91B43 /* Pods-QWTabBar_Example.debug.xcconfig */,
+				D17C1ACE9576E3E5CDB57BEB /* Pods-QWTabBar_Example.release.xcconfig */,
+				86A034DB7F237182CF755F36 /* Pods-QWTabBar_Tests.debug.xcconfig */,
+				84C34B5F5DE6486CFD100CD6 /* Pods-QWTabBar_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +113,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				9F21213F5D8A35E4020C267F /* Pods */,
+				1EF34B5B8A9009FB7674FEE9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +133,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				DD241AEB314394882AA8CCA5 /* Pods_QWTabBar_Example.framework */,
-				E09B2D4A52AD5A5A927F2103 /* Pods_QWTabBar_Tests.framework */,
+				21735BCE023013ED5E925ED7 /* Pods_QWTabBar_Example.framework */,
+				44B03474084933B5E9205A75 /* Pods_QWTabBar_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,11 +142,11 @@
 		6003F593195388D20070C39A /* Example for QWTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* IJSPAppDelegate.h */,
-				6003F59D195388D20070C39A /* IJSPAppDelegate.m */,
+				6003F59C195388D20070C39A /* QWAppDelegate.h */,
+				6003F59D195388D20070C39A /* QWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* IJSPViewController.h */,
-				6003F5A6195388D20070C39A /* IJSPViewController.m */,
+				6003F5A5195388D20070C39A /* QWViewController.h */,
+				6003F5A6195388D20070C39A /* QWViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,22 +188,10 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A5FE6FB4BBCCE2F9675D4826 /* QWTabBar.podspec */,
-				550966C445847396A867D7B3 /* README.md */,
-				5E7C4B9D9F427E8E97910315 /* LICENSE */,
+				878868DF4A7C26898187FD64 /* QWTabBar.podspec */,
+				36ED977607164162D0CB44D3 /* README.md */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		9F21213F5D8A35E4020C267F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B0454FFA56F62375F6E6D46C /* Pods-QWTabBar_Example.debug.xcconfig */,
-				7711296CAA165B856CB3D0FD /* Pods-QWTabBar_Example.release.xcconfig */,
-				F619AFDFD6FFD997457597A6 /* Pods-QWTabBar_Tests.debug.xcconfig */,
-				4D59B9B204CEEFD7E4A226DD /* Pods-QWTabBar_Tests.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,11 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "QWTabBar_Example" */;
 			buildPhases = (
-				345BF1D51D56DA323D478AD9 /* [CP] Check Pods Manifest.lock */,
+				A66F5C9E0917B8A2D78A9459 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				043C2EFB8345112674E60C71 /* [CP] Embed Pods Frameworks */,
+				A1D4297FC7CD51C6AFC79CF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "QWTabBar_Tests" */;
 			buildPhases = (
-				D24694D54A357253804673E4 /* [CP] Check Pods Manifest.lock */,
+				60E51EB7ACA094EA787EE82C /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -243,7 +241,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = IJSP;
+				CLASSPREFIX = QW;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "772053795@qq.com";
 				TargetAttributes = {
@@ -297,51 +295,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		043C2EFB8345112674E60C71 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/QWTabBar/QWTabBar.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QWTabBar.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		345BF1D51D56DA323D478AD9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QWTabBar_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D24694D54A357253804673E4 /* [CP] Check Pods Manifest.lock */ = {
+		60E51EB7ACA094EA787EE82C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,6 +317,52 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A1D4297FC7CD51C6AFC79CF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/QWTabBar/QWTabBar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QWTabBar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66F5C9E0917B8A2D78A9459 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QWTabBar_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -370,8 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* IJSPAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* IJSPViewController.m in Sources */,
+				6003F59E195388D20070C39A /* QWAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* QWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,7 +497,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0454FFA56F62375F6E6D46C /* Pods-QWTabBar_Example.debug.xcconfig */;
+			baseConfigurationReference = E3C55EF78E95611BB2B91B43 /* Pods-QWTabBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U2Q8AKAV4B;
@@ -513,7 +513,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7711296CAA165B856CB3D0FD /* Pods-QWTabBar_Example.release.xcconfig */;
+			baseConfigurationReference = D17C1ACE9576E3E5CDB57BEB /* Pods-QWTabBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = U2Q8AKAV4B;
@@ -529,7 +529,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F619AFDFD6FFD997457597A6 /* Pods-QWTabBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 86A034DB7F237182CF755F36 /* Pods-QWTabBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -553,7 +553,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4D59B9B204CEEFD7E4A226DD /* Pods-QWTabBar_Tests.release.xcconfig */;
+			baseConfigurationReference = 84C34B5F5DE6486CFD100CD6 /* Pods-QWTabBar_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

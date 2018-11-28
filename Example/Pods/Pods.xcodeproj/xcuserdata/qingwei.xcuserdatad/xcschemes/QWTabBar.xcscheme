@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "279AC4C291B66548CCD193AD21366BDE"
+               BlueprintIdentifier = "6F7448E978533059DD516D9665249120"
                BlueprintName = "QWTabBar"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "QWTabBar.framework">

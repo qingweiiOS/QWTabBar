@@ -1,5 +1,5 @@
 //
-//  IJSPViewController.h
+//  QWAppDelegate.h
 //  QWTabBar
 //
 //  Created by 772053795@qq.com on 11/28/2018.
@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface IJSPViewController : UIViewController
+@interface QWAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

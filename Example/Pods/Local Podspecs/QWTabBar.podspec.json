@@ -1,9 +1,9 @@
 {
   "name": "QWTabBar",
-  "version": "0.1.0",
-  "summary": "A short description of QWTabBar.",
+  "version": "0.0.2",
+  "summary": "QWTabBar",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/772053795@qq.com/QWTabBar",
+  "homepage": "https://github.com/qingweiiOS/QWTabBar.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "772053795@qq.com": "772053795@qq.com"
   },
   "source": {
-    "git": "https://github.com/772053795@qq.com/QWTabBar.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/qingweiiOS/QWTabBar.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QWTabBar/Classes/**/*"
+  "source_files": "Class/",
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
 }
