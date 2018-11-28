@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QWTabBar_Example' do
+  pod 'QWTabBar', :path => '../'
+
+  target 'QWTabBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

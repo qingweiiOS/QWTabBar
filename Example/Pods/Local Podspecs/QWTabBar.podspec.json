@@ -1,0 +1,22 @@
+{
+  "name": "QWTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of QWTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/772053795@qq.com/QWTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "772053795@qq.com": "772053795@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/772053795@qq.com/QWTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QWTabBar/Classes/**/*"
+}

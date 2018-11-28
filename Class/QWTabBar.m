@@ -28,9 +28,7 @@
  }
  */
 - (instancetype)initWithTitles:(NSArray <NSString *> *)titles itemImages:(NSArray *)itemImgs selectImages:(NSArray *)selectImages{
-    
     self = [super init];
-    
     if (self) {
         animationPath = [[UIBezierPath alloc] init];
         shapeLayer = [CAShapeLayer layer];
@@ -51,7 +49,7 @@
 }
 - (void)addItems{
     
-    /// 取最小的count 防止越界
+    /// 取图标数组和title数组最小的count 防止越界
     count = _itemImages.count<_selectItemImages.count?_itemImages.count:_selectItemImages.count;
     count = count<_titles.count?count:_titles.count;
     _tabBarItems = [NSMutableArray arrayWithCapacity:count];
@@ -157,18 +155,18 @@
 - (void)pathAnimation:(NSInteger)formIndex toIndex:(NSInteger)toIndex{
     
     self.superview.userInteractionEnabled = NO;
-    //当前中心点
+    ///当前中心点
     CGFloat x1 = K_WIDTH_QW/count*(formIndex+0.5);
     CGPoint center1 = CGPointMake(x1,19);
-    //目标中心点
+    ///目标中心点
     CGFloat x2 = K_WIDTH_QW/count*(toIndex+0.5);
     CGPoint center2 = CGPointMake(x2,19);
     /// 相隔几个item
     NSInteger indexPoor = toIndex - formIndex;
     
-    // 计算 运动路径长度
+    ///计算 运动路径长度
     CGFloat length = 4*M_PI*RADIUS+labs(indexPoor)*K_WIDTH_QW/count;
-    //计算一个圆的周长
+    ///计算一个圆的周长
     CGFloat s = 2*M_PI*RADIUS;
     
     /// 判断动画执行方向 顺时针 或 逆时针
@@ -181,7 +179,7 @@
     [animationPath addArcWithCenter:center2 radius:RADIUS startAngle:M_PI_2-0.001 endAngle:M_PI*2+M_PI_2 clockwise:clockwise];
     
     shapeLayer.path = animationPath.CGPath;
-    //strokeEnd 绘制路径
+    ///strokeEnd 绘制路径
     CABasicAnimation *strokeEndAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
     strokeEndAnimation.duration = 0.5;
     /*

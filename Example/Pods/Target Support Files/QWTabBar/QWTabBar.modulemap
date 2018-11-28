@@ -1,0 +1,6 @@
+framework module QWTabBar {
+  umbrella header "QWTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
