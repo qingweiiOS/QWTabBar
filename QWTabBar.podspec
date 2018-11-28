@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'QWTabBar'
-s.version          = '0.0.2'
+s.version          = '1.0'
 s.summary          = 'QWTabBar'
 
 #   This description is used to generate tags and improve search results.
@@ -29,7 +29,6 @@ s.source           = { :git => 'https://github.com/qingweiiOS/QWTabBar.git', :ta
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '8.0'
-
 s.source_files = 'Class/'
 s.dependency 'Masonry'
 end
