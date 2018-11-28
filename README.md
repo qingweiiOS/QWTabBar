@@ -3,7 +3,7 @@
 # 参考 [(BATabBarController)](https://github.com/antiguab/BATabBarController)
 ￼ 支持pod
  > pod 'QWTabBar'
-
+ > 当前版本 0.0.2
 > 具体使用看dome
 
 ![TabBar.gif](https://github.com/qingweiiOS/QWTabBar/blob/master/BrowserPreview_tmp.gif)
