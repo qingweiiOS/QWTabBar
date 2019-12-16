@@ -7,511 +7,485 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28C88628143D21DCADF47486FAB5214B /* QWTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3C1A534E9CAAC7DD1C59D056AA89E7 /* QWTabBar-dummy.m */; };
-		29867BA1C516D1B245D77DF53FA649E4 /* QWTabBarBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 69E035AD62F5D9D30E33888160D5BA80 /* QWTabBarBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2EB4F23F51FFB43AB812D585B2E04404 /* Pods-QWTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DE69B8C2CF24281A611F532A4127D /* Pods-QWTabBar_Tests-dummy.m */; };
-		3B77ADC4E4435CADB3C6DE22D838500E /* QWTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DA10D4DE9213CA35172812E08445DB5 /* QWTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BA4C634B519E5059CAE8BC4555EC544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		4C6E00BC66399BC521B523B6781C7C0C /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A1C90D1BF357BBBDC182249272EE50 /* QWTabBar.m */; };
-		4D1E37B521AE6541006C1D43 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E37B421AE6541006C1D43 /* LICENSE */; };
-		4E2E2BC20AE9B51C2FB3A55888B2BDB0 /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CD8CA150714A8B0677C9B403929419D /* QWTabBarItem.m */; };
-		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		539F03B9C4BCD885434BBC92C9F34F8E /* Pods-QWTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A1ACD457FA84F6BF81A89F1D3BFCE7 /* Pods-QWTabBar_Example-dummy.m */; };
-		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AFBEB2F266148320E6C760DA81E3567 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */; };
-		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		B71C7D92479AC90178A151B3740FDD60 /* QWTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C8C115EFE61AFE197F972FD736FEF4 /* QWTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0DB5217F01E13094A73015094A29657 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5E986218EEA58857158C583AC5D7684 /* QWTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = DE704BFAB2DE524E129AEC168008ABC0 /* QWTabBarBadge.m */; };
-		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D99D92CD213A849974D967C9BED43E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */; };
-		EB4709B204D55CE416A32A7380EA0D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */; };
-		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDA1F3605AB311D7AB323D419AA354B2 /* Pods-QWTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9CD8888AB6448A25FA95CB45C46F798 /* Pods-QWTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDAF66F71CF0C57163AC040C6E3B6122 /* Pods-QWTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09C4311F4BA797AFEFE8304E810DFF13 /* Pods-QWTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		FEA3D992AF44527355D7CB7AA656A3A9 /* QWTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FFB0DB078A0608BB3DB0CDD4A766E7 /* QWTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E5FFDF8671BEF15C65E604399238A22 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		25B1591E7EE7B5862445C7684A53DDC4 /* QWTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 73EEFA5AEA39B0CEFEC6F70069E91DC6 /* QWTabBarBadge.m */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A2E2B10BFF248B347A8081E9C4FAD07 /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9DBC715784EA060BBD8547D00CEE23 /* QWTabBarItem.m */; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40DCB5C6B603C9D6B71AA9E7260D7A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		42EC8A0472A0F48A5C0DF2476049AE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		4318D8F67892B3912318C2F22CCD73EF /* QWTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E4832F6D88AC6C511B834D2E588D68B /* QWTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		612E84D0866434B907A5CCD5B6530453 /* Pods-QWTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F2474EE9D49D40460369B6FBF8E9B5 /* Pods-QWTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		886C381424C0C5137105E25DEB170FC3 /* QWTabBarBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FAD7822266827BBDA87B4D653953966 /* QWTabBarBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3F42326069B535F20DD139BCDC4F4F /* Pods-QWTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB63C70974F1E50D96C23901ADA86FD /* Pods-QWTabBar_Tests-dummy.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DF9E28F19B445E9F9FC4BC54F7052DF /* QWTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E204E313F5BB4B01C8174F9953F76C2 /* QWTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE5983B05F45CA4CDE06B4F15C20CFC /* Pods-QWTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8D9A189E3CE95EAEBBF59016C18CD /* Pods-QWTabBar_Example-dummy.m */; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		ABCE4DDFE2BA0B67D2C5CBE671D87A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		B25D0A48F06A305415B56D4A6721897C /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D92ADFBF5C6D751F40009EF0DDEE9BAA /* QWTabBar.m */; };
+		B6195D9032E5A7F77D578A61B27C7EAC /* QWTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA826FC195B5032BA21CF943FA2DE08 /* QWTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		CD8744A5CC0E933C42A1230F6B37E6EE /* QWTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0AC0EE6B8FE0A8F80CFEE20BA3E8CB /* QWTabBar-dummy.m */; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */; };
+		D4331C5CA204111213C055E0E66C8B6A /* Pods-QWTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18194058F3239BCEAC72E90F3ECC8B5B /* Pods-QWTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		191E3E00D28F8EE291DC98B69F0B101C /* PBXContainerItemProxy */ = {
+		07773CBF1DFA09F230B7EDC90E9BCB2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F7448E978533059DD516D9665249120;
-			remoteInfo = QWTabBar;
-		};
-		1B23C55E37A456285D3DAE9B4AAA3981 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FF7468B4F5259B98018DD1ABAD2D2593;
-			remoteInfo = Masonry;
-		};
-		6CCF8AE4A4AA7D606F6DF868FB8A3611 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08E3BABD8E5060B68CD7D97E8D573549;
+			remoteGlobalIDString = 978C8E1FA21E79BA529D5D2BC2E4DBE7;
 			remoteInfo = "Pods-QWTabBar_Example";
 		};
-		8E0EF2F322753243B4B581B700FBE916 /* PBXContainerItemProxy */ = {
+		4ACE3FCFAE5383F673572E4B64B9BB98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF7468B4F5259B98018DD1ABAD2D2593;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		721CDD89E1F4BF9BF4F59B64FD6D93BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E0CC2AC6638F62686CA05A8E783F653;
+			remoteInfo = QWTabBar;
+		};
+		FB6FF7C6A24ED7A337A122E3DE277919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
 			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C4DDFF6EE518DCD5126AEB2D31C8F5 /* Pods-QWTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		057602BA81F0F219799FE2FA89DE6594 /* Pods-QWTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTabBar_Tests.modulemap"; sourceTree = "<group>"; };
-		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		09C4311F4BA797AFEFE8304E810DFF13 /* Pods-QWTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		0EC57A2E4330E84843AB3B27710CC714 /* Pods-QWTabBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		11030F5CBCDBD9E6CA35CFA85CA199AF /* Pods-QWTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTabBar_Example.modulemap"; sourceTree = "<group>"; };
-		17A1ACD457FA84F6BF81A89F1D3BFCE7 /* Pods-QWTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Example-dummy.m"; sourceTree = "<group>"; };
-		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		25671DA089E590F28529682C8F8EF8C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E74520EABA73789FA993B231C81425B /* Pods-QWTabBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Example-resources.sh"; sourceTree = "<group>"; };
-		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		36C40591902578632718E317104564A2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
-		3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		38C54FD008C752A45A4765E71E8D96BB /* Pods-QWTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		392E201445D8BB1CBF4A9606307502BA /* Pods-QWTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		40A19B5498560222A685CF471581235F /* Pods-QWTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4920026BA4251222C65C0BDBD70EA592 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		4D1E37B421AE6541006C1D43 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		5177679CD0BBD9AC8DA0571FA36597BE /* QWTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QWTabBar.modulemap; sourceTree = "<group>"; };
-		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5552BF0B561DFB81F9E0F058E305EA97 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		5ED5B4A1873C4EFC9BFD40AF56E1B27C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		68A1C90D1BF357BBBDC182249272EE50 /* QWTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBar.m; path = Class/QWTabBar.m; sourceTree = "<group>"; };
-		69E035AD62F5D9D30E33888160D5BA80 /* QWTabBarBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBarBadge.h; path = Class/QWTabBarBadge.h; sourceTree = "<group>"; };
-		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C1DE69B8C2CF24281A611F532A4127D /* Pods-QWTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		70CD777039D1A96A88024E98C04537A8 /* QWTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QWTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7244594B5A41793D0BB312409443746E /* QWTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QWTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76FFB0DB078A0608BB3DB0CDD4A766E7 /* QWTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBar.h; path = Class/QWTabBar.h; sourceTree = "<group>"; };
-		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7CD8CA150714A8B0677C9B403929419D /* QWTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBarItem.m; path = Class/QWTabBarItem.m; sourceTree = "<group>"; };
-		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		897CD076F790F18FD79D7301048BA682 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DA10D4DE9213CA35172812E08445DB5 /* QWTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWTabBar-umbrella.h"; sourceTree = "<group>"; };
-		8FE66F040E544B736EA4DE0D29B913C7 /* Pods-QWTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		900CB179E3FE89E39539DDA536C51CEC /* QWTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWTabBar.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		97C8C115EFE61AFE197F972FD736FEF4 /* QWTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBarItem.h; path = Class/QWTabBarItem.h; sourceTree = "<group>"; };
-		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		ACCCBB2DDB651EE690FD2D873959DFA3 /* Pods-QWTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B2C8F41F9268115DE51DBB7CECA5CBAB /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9CD8888AB6448A25FA95CB45C46F798 /* Pods-QWTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		C8ACD721329C18DAE782498075DA4B7F /* QWTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWTabBar-prefix.pch"; sourceTree = "<group>"; };
-		C97AD8DA67826BC9D1F20D11E8885CF6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD56C241DD9A387CBF98BFA755D5CE47 /* Pods-QWTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DC3C1A534E9CAAC7DD1C59D056AA89E7 /* QWTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWTabBar-dummy.m"; sourceTree = "<group>"; };
-		DE704BFAB2DE524E129AEC168008ABC0 /* QWTabBarBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBarBadge.m; path = Class/QWTabBarBadge.m; sourceTree = "<group>"; };
-		DEC7435BB52FB0F967B82F921330825E /* Pods-QWTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		ED80DAF137F4B1E32D58D8A7BABF596E /* Pods-QWTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EE6D11DF36413BA0802E6C8A958DD938 /* Pods-QWTabBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		011BA9A84E2462A647E33AF8B93834C6 /* Pods-QWTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		123656ECD0C42616B430BC34A2AD88FD /* QWTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWTabBar-prefix.pch"; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		16DD90BFC69305A98BEF35B6C6954030 /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTabBar_Tests.framework; path = "Pods-QWTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18194058F3239BCEAC72E90F3ECC8B5B /* Pods-QWTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1C0AC0EE6B8FE0A8F80CFEE20BA3E8CB /* QWTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWTabBar-dummy.m"; sourceTree = "<group>"; };
+		1DD8D9A189E3CE95EAEBBF59016C18CD /* Pods-QWTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FAD7822266827BBDA87B4D653953966 /* QWTabBarBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBarBadge.h; path = Class/QWTabBarBadge.h; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		288DCFC4CFFB10D855B0C78ECD37CCA0 /* Pods-QWTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AEA9C198197E3113757FD5A1A005F77 /* Pods-QWTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E204E313F5BB4B01C8174F9953F76C2 /* QWTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWTabBar-umbrella.h"; sourceTree = "<group>"; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		3959C3B437854E2147CFEA09B83CD886 /* Pods-QWTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		432A2BC8E599CA93F6BA70F9D0C095B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4C5C9E6DB1700A3CF6E5DAEB532D85F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		4EF3DE29D86A0BA336108F59854923FF /* QWTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QWTabBar-Info.plist"; sourceTree = "<group>"; };
+		535A4F60FC751241867F9648D7A77E88 /* QWTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QWTabBar.modulemap; sourceTree = "<group>"; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C083047333A49D88EC7E7ECFE32F7B3 /* Pods-QWTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		73EEFA5AEA39B0CEFEC6F70069E91DC6 /* QWTabBarBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBarBadge.m; path = Class/QWTabBarBadge.m; sourceTree = "<group>"; };
+		796CD1E597A08DEE3B88919547D638C9 /* Pods-QWTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7E4832F6D88AC6C511B834D2E588D68B /* QWTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBarItem.h; path = Class/QWTabBarItem.h; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		911CD46940C9031996E51B2EF4C35916 /* Pods-QWTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C4DF700C34B9950958D6162D94F15E3 /* Pods-QWTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		A24C644E760B74B348F9449FBA8D5BBE /* Pods-QWTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A32731F206B7E493D0D54E01602DFABB /* QWTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QWTabBar.framework; path = QWTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A492B06D92D802E8E328A925789DDD1B /* Pods-QWTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		B4F2474EE9D49D40460369B6FBF8E9B5 /* Pods-QWTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		B73536B09C7ED8F0872DD8AB45D92851 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTabBar_Example.framework; path = "Pods-QWTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CDBB0C47100A4BEFC728B6879E153BE7 /* Pods-QWTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFB63C70974F1E50D96C23901ADA86FD /* Pods-QWTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D4448047ACD64066CD096C2893AD34BA /* QWTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QWTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D92ADFBF5C6D751F40009EF0DDEE9BAA /* QWTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBar.m; path = Class/QWTabBar.m; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		EE9DBC715784EA060BBD8547D00CEE23 /* QWTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QWTabBarItem.m; path = Class/QWTabBarItem.m; sourceTree = "<group>"; };
+		EEA826FC195B5032BA21CF943FA2DE08 /* QWTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWTabBar.h; path = Class/QWTabBar.h; sourceTree = "<group>"; };
+		EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F1B430B58A0AB4BAB30F843EBD05DF04 /* Pods-QWTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F265989E826D7C80CB277CBB53D0F16D /* Pods-QWTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCB6579A4F507927417DC4E60E595A56 /* QWTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWTabBar.xcconfig; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		17C3F79A11E82E700ABA326D7A7950EA /* Frameworks */ = {
+		4237476706E7C791C0F205821844BBA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0DB5217F01E13094A73015094A29657 /* Foundation.framework in Frameworks */,
-				5AFBEB2F266148320E6C760DA81E3567 /* Masonry.framework in Frameworks */,
+				42EC8A0472A0F48A5C0DF2476049AE46 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */ = {
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA4C634B519E5059CAE8BC4555EC544 /* Foundation.framework in Frameworks */,
-				7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */,
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79152F231B459770BBB11F68EED1A465 /* Frameworks */ = {
+		8C56A0C50D557D558D7EBC598AC4A662 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99D92CD213A849974D967C9BED43E8E /* Foundation.framework in Frameworks */,
+				ABCE4DDFE2BA0B67D2C5CBE671D87A26 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BED44ACB8A6653DD775A69D555A582DA /* Frameworks */ = {
+		EC63A5563E9F90065AADFE775DA65707 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4709B204D55CE416A32A7380EA0D87 /* Foundation.framework in Frameworks */,
+				40DCB5C6B603C9D6B71AA9E7260D7A7D /* Foundation.framework in Frameworks */,
+				0E5FFDF8671BEF15C65E604399238A22 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		314954CCDF056EA13EC57796FE51D3FF /* QWTabBar */ = {
+		49E799191844003FFB66681279E330AD /* Pods-QWTabBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				76FFB0DB078A0608BB3DB0CDD4A766E7 /* QWTabBar.h */,
-				68A1C90D1BF357BBBDC182249272EE50 /* QWTabBar.m */,
-				69E035AD62F5D9D30E33888160D5BA80 /* QWTabBarBadge.h */,
-				DE704BFAB2DE524E129AEC168008ABC0 /* QWTabBarBadge.m */,
-				97C8C115EFE61AFE197F972FD736FEF4 /* QWTabBarItem.h */,
-				7CD8CA150714A8B0677C9B403929419D /* QWTabBarItem.m */,
-				A1CA0EE68D18EE3443A2265682928BEC /* Pod */,
-				BA02F03F536DCFF6D8867F27DC86D07E /* Support Files */,
-			);
-			name = QWTabBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3840034E0C20BC244829EFF260D35208 /* Pods-QWTabBar_Example */ = {
-			isa = PBXGroup;
-			children = (
-				25671DA089E590F28529682C8F8EF8C4 /* Info.plist */,
-				11030F5CBCDBD9E6CA35CFA85CA199AF /* Pods-QWTabBar_Example.modulemap */,
-				CD56C241DD9A387CBF98BFA755D5CE47 /* Pods-QWTabBar_Example-acknowledgements.markdown */,
-				38C54FD008C752A45A4765E71E8D96BB /* Pods-QWTabBar_Example-acknowledgements.plist */,
-				17A1ACD457FA84F6BF81A89F1D3BFCE7 /* Pods-QWTabBar_Example-dummy.m */,
-				8FE66F040E544B736EA4DE0D29B913C7 /* Pods-QWTabBar_Example-frameworks.sh */,
-				2E74520EABA73789FA993B231C81425B /* Pods-QWTabBar_Example-resources.sh */,
-				09C4311F4BA797AFEFE8304E810DFF13 /* Pods-QWTabBar_Example-umbrella.h */,
-				ED80DAF137F4B1E32D58D8A7BABF596E /* Pods-QWTabBar_Example.debug.xcconfig */,
-				DEC7435BB52FB0F967B82F921330825E /* Pods-QWTabBar_Example.release.xcconfig */,
-			);
-			name = "Pods-QWTabBar_Example";
-			path = "Target Support Files/Pods-QWTabBar_Example";
-			sourceTree = "<group>";
-		};
-		59511511C2B4BC905C933DCC67E365C4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */,
-				DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6984E7213AF4FC25CEBE48FC6E50730D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3840034E0C20BC244829EFF260D35208 /* Pods-QWTabBar_Example */,
-				C50370D38453EB3F1BD190E381999EE1 /* Pods-QWTabBar_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D08436F0A2B8D283183C45B6B4536A5F /* Development Pods */,
-				59511511C2B4BC905C933DCC67E365C4 /* Frameworks */,
-				E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */,
-				A4A80C78549944F52242F2D7F66362E9 /* Products */,
-				6984E7213AF4FC25CEBE48FC6E50730D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A1CA0EE68D18EE3443A2265682928BEC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4D1E37B421AE6541006C1D43 /* LICENSE */,
-				70CD777039D1A96A88024E98C04537A8 /* QWTabBar.podspec */,
-				4920026BA4251222C65C0BDBD70EA592 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */,
-				537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */,
-				ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */,
-				986CB32629319F7F2256662716334944 /* MASConstraint.m */,
-				77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */,
-				A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */,
-				FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */,
-				C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */,
-				611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */,
-				303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */,
-				AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */,
-				96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */,
-				0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */,
-				1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */,
-				6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */,
-				5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */,
-				B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */,
-				F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */,
-				2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */,
-				FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */,
-				7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */,
-				61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */,
-				C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */,
-				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
-				D253588BAFB01A953DA60C10CD597F84 /* Support Files */,
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		A4A80C78549944F52242F2D7F66362E9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				897CD076F790F18FD79D7301048BA682 /* Masonry.framework */,
-				5552BF0B561DFB81F9E0F058E305EA97 /* Pods_QWTabBar_Example.framework */,
-				B2C8F41F9268115DE51DBB7CECA5CBAB /* Pods_QWTabBar_Tests.framework */,
-				7244594B5A41793D0BB312409443746E /* QWTabBar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA02F03F536DCFF6D8867F27DC86D07E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5ED5B4A1873C4EFC9BFD40AF56E1B27C /* Info.plist */,
-				5177679CD0BBD9AC8DA0571FA36597BE /* QWTabBar.modulemap */,
-				900CB179E3FE89E39539DDA536C51CEC /* QWTabBar.xcconfig */,
-				DC3C1A534E9CAAC7DD1C59D056AA89E7 /* QWTabBar-dummy.m */,
-				C8ACD721329C18DAE782498075DA4B7F /* QWTabBar-prefix.pch */,
-				8DA10D4DE9213CA35172812E08445DB5 /* QWTabBar-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QWTabBar";
-			sourceTree = "<group>";
-		};
-		C50370D38453EB3F1BD190E381999EE1 /* Pods-QWTabBar_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				C97AD8DA67826BC9D1F20D11E8885CF6 /* Info.plist */,
-				057602BA81F0F219799FE2FA89DE6594 /* Pods-QWTabBar_Tests.modulemap */,
-				03C4DDFF6EE518DCD5126AEB2D31C8F5 /* Pods-QWTabBar_Tests-acknowledgements.markdown */,
-				ACCCBB2DDB651EE690FD2D873959DFA3 /* Pods-QWTabBar_Tests-acknowledgements.plist */,
-				6C1DE69B8C2CF24281A611F532A4127D /* Pods-QWTabBar_Tests-dummy.m */,
-				EE6D11DF36413BA0802E6C8A958DD938 /* Pods-QWTabBar_Tests-frameworks.sh */,
-				0EC57A2E4330E84843AB3B27710CC714 /* Pods-QWTabBar_Tests-resources.sh */,
-				B9CD8888AB6448A25FA95CB45C46F798 /* Pods-QWTabBar_Tests-umbrella.h */,
-				40A19B5498560222A685CF471581235F /* Pods-QWTabBar_Tests.debug.xcconfig */,
-				392E201445D8BB1CBF4A9606307502BA /* Pods-QWTabBar_Tests.release.xcconfig */,
+				A492B06D92D802E8E328A925789DDD1B /* Pods-QWTabBar_Tests.modulemap */,
+				911CD46940C9031996E51B2EF4C35916 /* Pods-QWTabBar_Tests-acknowledgements.markdown */,
+				F265989E826D7C80CB277CBB53D0F16D /* Pods-QWTabBar_Tests-acknowledgements.plist */,
+				CFB63C70974F1E50D96C23901ADA86FD /* Pods-QWTabBar_Tests-dummy.m */,
+				F1B430B58A0AB4BAB30F843EBD05DF04 /* Pods-QWTabBar_Tests-Info.plist */,
+				18194058F3239BCEAC72E90F3ECC8B5B /* Pods-QWTabBar_Tests-umbrella.h */,
+				9C4DF700C34B9950958D6162D94F15E3 /* Pods-QWTabBar_Tests.debug.xcconfig */,
+				796CD1E597A08DEE3B88919547D638C9 /* Pods-QWTabBar_Tests.release.xcconfig */,
 			);
 			name = "Pods-QWTabBar_Tests";
 			path = "Target Support Files/Pods-QWTabBar_Tests";
 			sourceTree = "<group>";
 		};
-		D08436F0A2B8D283183C45B6B4536A5F /* Development Pods */ = {
+		50C67409CE753194718EAAB7480BFECD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				314954CCDF056EA13EC57796FE51D3FF /* QWTabBar */,
+				4C5C9E6DB1700A3CF6E5DAEB532D85F1 /* LICENSE */,
+				D4448047ACD64066CD096C2893AD34BA /* QWTabBar.podspec */,
+				432A2BC8E599CA93F6BA70F9D0C095B4 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		D253588BAFB01A953DA60C10CD597F84 /* Support Files */ = {
+		5C8810DE77DCC4ECA2ADF9F99D498807 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8223B4B9D2A5B7C0F33D1BC8949FA9F5 /* Info.plist */,
-				36C40591902578632718E317104564A2 /* Masonry.modulemap */,
-				3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */,
-				818E990F262EC48F8DAAFD014D7E9234 /* Masonry-dummy.m */,
-				E77198CEE0CF691E7915471E9F19CD96 /* Masonry-prefix.pch */,
-				1FB8A9BDAB144F118F7F74E1F2B74097 /* Masonry-umbrella.h */,
+				535A4F60FC751241867F9648D7A77E88 /* QWTabBar.modulemap */,
+				FCB6579A4F507927417DC4E60E595A56 /* QWTabBar.xcconfig */,
+				1C0AC0EE6B8FE0A8F80CFEE20BA3E8CB /* QWTabBar-dummy.m */,
+				4EF3DE29D86A0BA336108F59854923FF /* QWTabBar-Info.plist */,
+				123656ECD0C42616B430BC34A2AD88FD /* QWTabBar-prefix.pch */,
+				2E204E313F5BB4B01C8174F9953F76C2 /* QWTabBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QWTabBar";
+			sourceTree = "<group>";
+		};
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				28147EF640D73DD5BE8B797CFD199606 /* Foundation.framework */,
+				EFF909907D9794E4C781DAC1693A7018 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
 			sourceTree = "<group>";
 		};
-		DC7E422848DE4538BD67FA85E4EF5FAF /* iOS */ = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				F4ECFD12E78C2CA945044CB88F411C65 /* Foundation.framework */,
-				B1DDB58FB8525698C8C459E7485FF5DB /* UIKit.framework */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EF4AD41BB2EDF509DAA16BD9D9059B0F /* Development Pods */,
+				DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				F11DD96F977E85E69822E4AE24E79C0E /* Products */,
+				D3AA7270C9AB052377189BA8B471AEE9 /* Targets Support Files */,
 			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
-		E9B49E9D4F6BC02AA78DCF86BCED2145 /* Pods */ = {
+		D3AA7270C9AB052377189BA8B471AEE9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */,
+				ED7C7FA44EA4C95A4AB88DF6C490C429 /* Pods-QWTabBar_Example */,
+				49E799191844003FFB66681279E330AD /* Pods-QWTabBar_Tests */,
 			);
-			name = Pods;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF275781DF9628A2D5BF35F5D74F7BC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B28864E3F11E1DDE7AEF55AFFD8B0FE /* Masonry.framework */,
+				B8E2C472EF7E7FDC3762375EC6A7F033 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED7C7FA44EA4C95A4AB88DF6C490C429 /* Pods-QWTabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3959C3B437854E2147CFEA09B83CD886 /* Pods-QWTabBar_Example.modulemap */,
+				CDBB0C47100A4BEFC728B6879E153BE7 /* Pods-QWTabBar_Example-acknowledgements.markdown */,
+				288DCFC4CFFB10D855B0C78ECD37CCA0 /* Pods-QWTabBar_Example-acknowledgements.plist */,
+				1DD8D9A189E3CE95EAEBBF59016C18CD /* Pods-QWTabBar_Example-dummy.m */,
+				A24C644E760B74B348F9449FBA8D5BBE /* Pods-QWTabBar_Example-frameworks.sh */,
+				6C083047333A49D88EC7E7ECFE32F7B3 /* Pods-QWTabBar_Example-Info.plist */,
+				B4F2474EE9D49D40460369B6FBF8E9B5 /* Pods-QWTabBar_Example-umbrella.h */,
+				011BA9A84E2462A647E33AF8B93834C6 /* Pods-QWTabBar_Example.debug.xcconfig */,
+				2AEA9C198197E3113757FD5A1A005F77 /* Pods-QWTabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-QWTabBar_Example";
+			path = "Target Support Files/Pods-QWTabBar_Example";
+			sourceTree = "<group>";
+		};
+		EF4AD41BB2EDF509DAA16BD9D9059B0F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F08AC18EB4C3DDAB614427F5575E51FA /* QWTabBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F08AC18EB4C3DDAB614427F5575E51FA /* QWTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				EEA826FC195B5032BA21CF943FA2DE08 /* QWTabBar.h */,
+				D92ADFBF5C6D751F40009EF0DDEE9BAA /* QWTabBar.m */,
+				1FAD7822266827BBDA87B4D653953966 /* QWTabBarBadge.h */,
+				73EEFA5AEA39B0CEFEC6F70069E91DC6 /* QWTabBarBadge.m */,
+				7E4832F6D88AC6C511B834D2E588D68B /* QWTabBarItem.h */,
+				EE9DBC715784EA060BBD8547D00CEE23 /* QWTabBarItem.m */,
+				50C67409CE753194718EAAB7480BFECD /* Pod */,
+				5C8810DE77DCC4ECA2ADF9F99D498807 /* Support Files */,
+			);
+			name = QWTabBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F11DD96F977E85E69822E4AE24E79C0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				B73536B09C7ED8F0872DD8AB45D92851 /* Pods_QWTabBar_Example.framework */,
+				16DD90BFC69305A98BEF35B6C6954030 /* Pods_QWTabBar_Tests.framework */,
+				A32731F206B7E493D0D54E01602DFABB /* QWTabBar.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3382008FB003B704F14C40C2C7142FCB /* Headers */ = {
+		17CBEA7047489569667F50845B2A803E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDAF66F71CF0C57163AC040C6E3B6122 /* Pods-QWTabBar_Example-umbrella.h in Headers */,
+				D4331C5CA204111213C055E0E66C8B6A /* Pods-QWTabBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		455F9890980F048120DAB284893EF9AA /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA1F3605AB311D7AB323D419AA354B2 /* Pods-QWTabBar_Tests-umbrella.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */ = {
+		97E34F36366C42EDF154CFE351863A81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */,
-				EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */,
-				03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */,
-				D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */,
-				50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */,
-				F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */,
-				61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */,
-				F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */,
-				CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */,
-				24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */,
-				892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */,
-				9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */,
-				C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */,
-				0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */,
-				C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */,
+				8DF9E28F19B445E9F9FC4BC54F7052DF /* QWTabBar-umbrella.h in Headers */,
+				B6195D9032E5A7F77D578A61B27C7EAC /* QWTabBar.h in Headers */,
+				886C381424C0C5137105E25DEB170FC3 /* QWTabBarBadge.h in Headers */,
+				4318D8F67892B3912318C2F22CCD73EF /* QWTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BA2A0722BB6148932EC5CDB45B3C4D1 /* Headers */ = {
+		F1CBB5979C471AB82578C4FA3B0A53E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B77ADC4E4435CADB3C6DE22D838500E /* QWTabBar-umbrella.h in Headers */,
-				FEA3D992AF44527355D7CB7AA656A3A9 /* QWTabBar.h in Headers */,
-				29867BA1C516D1B245D77DF53FA649E4 /* QWTabBarBadge.h in Headers */,
-				B71C7D92479AC90178A151B3740FDD60 /* QWTabBarItem.h in Headers */,
+				612E84D0866434B907A5CCD5B6530453 /* Pods-QWTabBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		08E3BABD8E5060B68CD7D97E8D573549 /* Pods-QWTabBar_Example */ = {
+		0E0CC2AC6638F62686CA05A8E783F653 /* QWTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2D4AD9D27F95E00174A9DE50471BA33 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Example" */;
+			buildConfigurationList = 256B7DA9BF0950E1EEFCFF4EA851577D /* Build configuration list for PBXNativeTarget "QWTabBar" */;
 			buildPhases = (
-				3382008FB003B704F14C40C2C7142FCB /* Headers */,
-				27898FC32B2077CBC412F80D495CF054 /* Sources */,
-				79152F231B459770BBB11F68EED1A465 /* Frameworks */,
-				5B1B1A60987CC7DE8E6C33FF22A05116 /* Resources */,
+				97E34F36366C42EDF154CFE351863A81 /* Headers */,
+				1C6990777B17347A191B58B953EA1628 /* Sources */,
+				EC63A5563E9F90065AADFE775DA65707 /* Frameworks */,
+				BC96B0222A8DDD31916340C6C174101A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7EC18C915149F475CAEB0245B78D7F2A /* PBXTargetDependency */,
-				93D0C6FAFD84ACA0D61236D80339F5D8 /* PBXTargetDependency */,
-			);
-			name = "Pods-QWTabBar_Example";
-			productName = "Pods-QWTabBar_Example";
-			productReference = 5552BF0B561DFB81F9E0F058E305EA97 /* Pods_QWTabBar_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6F7448E978533059DD516D9665249120 /* QWTabBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AECD848393EFA0F484C3223A186EDF71 /* Build configuration list for PBXNativeTarget "QWTabBar" */;
-			buildPhases = (
-				4BA2A0722BB6148932EC5CDB45B3C4D1 /* Headers */,
-				7B02E59AE198BB10528BCD492BE6280A /* Sources */,
-				17C3F79A11E82E700ABA326D7A7950EA /* Frameworks */,
-				6D561DDE4D231DC6AAB52158163AF541 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ECB13BF57C7B26CE94A92095BB61B830 /* PBXTargetDependency */,
+				969E2F9E88A27F303788FE7B17513157 /* PBXTargetDependency */,
 			);
 			name = QWTabBar;
 			productName = QWTabBar;
-			productReference = 7244594B5A41793D0BB312409443746E /* QWTabBar.framework */;
+			productReference = A32731F206B7E493D0D54E01602DFABB /* QWTabBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		909D434C6D7F628C309C9AC97F635A14 /* Pods-QWTabBar_Tests */ = {
+		1902A29342B80147C58FFBBDF5F3F20D /* Pods-QWTabBar_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9269A922E4F15BA5127FAF26C4C7CBDA /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Tests" */;
+			buildConfigurationList = 88C0F60BD973E313FE886F0980AB0B11 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Tests" */;
 			buildPhases = (
-				455F9890980F048120DAB284893EF9AA /* Headers */,
-				1B18B6BD6CE960FFF0B811D3605B8100 /* Sources */,
-				BED44ACB8A6653DD775A69D555A582DA /* Frameworks */,
-				1FB71AFAAFC8FC5304A88E956414F0BB /* Resources */,
+				17CBEA7047489569667F50845B2A803E /* Headers */,
+				6194E65DA3E22FC90B5F5F8A36E0560E /* Sources */,
+				4237476706E7C791C0F205821844BBA9 /* Frameworks */,
+				91816CD1FAFAEA7FF473371709F39B7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0EDB86863CB6E8945127EE7230BA1CBC /* PBXTargetDependency */,
+				1F6087EE239EF678CF27D25E4E3E7969 /* PBXTargetDependency */,
 			);
 			name = "Pods-QWTabBar_Tests";
 			productName = "Pods-QWTabBar_Tests";
-			productReference = B2C8F41F9268115DE51DBB7CECA5CBAB /* Pods_QWTabBar_Tests.framework */;
+			productReference = 16DD90BFC69305A98BEF35B6C6954030 /* Pods_QWTabBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */,
-				79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */,
-				3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */,
-				BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */,
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -519,149 +493,169 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 897CD076F790F18FD79D7301048BA682 /* Masonry.framework */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		978C8E1FA21E79BA529D5D2BC2E4DBE7 /* Pods-QWTabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AB29B602687F3C22869DB9133A5B3A6 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Example" */;
+			buildPhases = (
+				F1CBB5979C471AB82578C4FA3B0A53E4 /* Headers */,
+				14E651442D11B9117A4DFF40458972C3 /* Sources */,
+				8C56A0C50D557D558D7EBC598AC4A662 /* Frameworks */,
+				4231B7CB5AC772C51033AD90D851B4B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3994D25CAE36A10070421D4BCC3262CD /* PBXTargetDependency */,
+				92DAAA2DAAF47F3DD359E66EE99EBA64 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWTabBar_Example";
+			productName = "Pods-QWTabBar_Example";
+			productReference = B73536B09C7ED8F0872DD8AB45D92851 /* Pods_QWTabBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A4A80C78549944F52242F2D7F66362E9 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F11DD96F977E85E69822E4AE24E79C0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */,
-				08E3BABD8E5060B68CD7D97E8D573549 /* Pods-QWTabBar_Example */,
-				909D434C6D7F628C309C9AC97F635A14 /* Pods-QWTabBar_Tests */,
-				6F7448E978533059DD516D9665249120 /* QWTabBar */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				978C8E1FA21E79BA529D5D2BC2E4DBE7 /* Pods-QWTabBar_Example */,
+				1902A29342B80147C58FFBBDF5F3F20D /* Pods-QWTabBar_Tests */,
+				0E0CC2AC6638F62686CA05A8E783F653 /* QWTabBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1FB71AFAAFC8FC5304A88E956414F0BB /* Resources */ = {
+		4231B7CB5AC772C51033AD90D851B4B9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B1B1A60987CC7DE8E6C33FF22A05116 /* Resources */ = {
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D561DDE4D231DC6AAB52158163AF541 /* Resources */ = {
+		91816CD1FAFAEA7FF473371709F39B7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */ = {
+		BC96B0222A8DDD31916340C6C174101A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D1E37B521AE6541006C1D43 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1B18B6BD6CE960FFF0B811D3605B8100 /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB4F23F51FFB43AB812D585B2E04404 /* Pods-QWTabBar_Tests-dummy.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27898FC32B2077CBC412F80D495CF054 /* Sources */ = {
+		14E651442D11B9117A4DFF40458972C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				539F03B9C4BCD885434BBC92C9F34F8E /* Pods-QWTabBar_Example-dummy.m in Sources */,
+				8FE5983B05F45CA4CDE06B4F15C20CFC /* Pods-QWTabBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */ = {
+		1C6990777B17347A191B58B953EA1628 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */,
-				98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */,
-				A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */,
-				65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */,
-				DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */,
-				FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */,
-				69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */,
-				F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */,
-				A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */,
-				49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */,
+				CD8744A5CC0E933C42A1230F6B37E6EE /* QWTabBar-dummy.m in Sources */,
+				B25D0A48F06A305415B56D4A6721897C /* QWTabBar.m in Sources */,
+				25B1591E7EE7B5862445C7684A53DDC4 /* QWTabBarBadge.m in Sources */,
+				3A2E2B10BFF248B347A8081E9C4FAD07 /* QWTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B02E59AE198BB10528BCD492BE6280A /* Sources */ = {
+		6194E65DA3E22FC90B5F5F8A36E0560E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28C88628143D21DCADF47486FAB5214B /* QWTabBar-dummy.m in Sources */,
-				4C6E00BC66399BC521B523B6781C7C0C /* QWTabBar.m in Sources */,
-				D5E986218EEA58857158C583AC5D7684 /* QWTabBarBadge.m in Sources */,
-				4E2E2BC20AE9B51C2FB3A55888B2BDB0 /* QWTabBarItem.m in Sources */,
+				8B3F42326069B535F20DD139BCDC4F4F /* Pods-QWTabBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0EDB86863CB6E8945127EE7230BA1CBC /* PBXTargetDependency */ = {
+		1F6087EE239EF678CF27D25E4E3E7969 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QWTabBar_Example";
-			target = 08E3BABD8E5060B68CD7D97E8D573549 /* Pods-QWTabBar_Example */;
-			targetProxy = 6CCF8AE4A4AA7D606F6DF868FB8A3611 /* PBXContainerItemProxy */;
+			target = 978C8E1FA21E79BA529D5D2BC2E4DBE7 /* Pods-QWTabBar_Example */;
+			targetProxy = 07773CBF1DFA09F230B7EDC90E9BCB2A /* PBXContainerItemProxy */;
 		};
-		7EC18C915149F475CAEB0245B78D7F2A /* PBXTargetDependency */ = {
+		3994D25CAE36A10070421D4BCC3262CD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */;
-			targetProxy = 1B23C55E37A456285D3DAE9B4AAA3981 /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = FB6FF7C6A24ED7A337A122E3DE277919 /* PBXContainerItemProxy */;
 		};
-		93D0C6FAFD84ACA0D61236D80339F5D8 /* PBXTargetDependency */ = {
+		92DAAA2DAAF47F3DD359E66EE99EBA64 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QWTabBar;
-			target = 6F7448E978533059DD516D9665249120 /* QWTabBar */;
-			targetProxy = 191E3E00D28F8EE291DC98B69F0B101C /* PBXContainerItemProxy */;
+			target = 0E0CC2AC6638F62686CA05A8E783F653 /* QWTabBar */;
+			targetProxy = 721CDD89E1F4BF9BF4F59B64FD6D93BE /* PBXContainerItemProxy */;
 		};
-		ECB13BF57C7B26CE94A92095BB61B830 /* PBXTargetDependency */ = {
+		969E2F9E88A27F303788FE7B17513157 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */;
-			targetProxy = 8E0EF2F322753243B4B581B700FBE916 /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 4ACE3FCFAE5383F673572E4B64B9BB98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03FB772A4D1F6881C45319464851680B /* Debug */ = {
+		01C2E4FB1B954D2766886D782F72D7F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40A19B5498560222A685CF471581235F /* Pods-QWTabBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 9C4DF700C34B9950958D6162D94F15E3 /* Pods-QWTabBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -673,7 +667,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -692,9 +686,43 @@
 			};
 			name = Debug;
 		};
-		4927ADB82E591CA33AC39AEEFCC18B3B /* Debug */ = {
+		38C40F49E770B90415EED1F600CF39E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 900CB179E3FE89E39539DDA536C51CEC /* QWTabBar.xcconfig */;
+			baseConfigurationReference = 2AEA9C198197E3113757FD5A1A005F77 /* Pods-QWTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -705,14 +733,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QWTabBar/QWTabBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QWTabBar/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QWTabBar/QWTabBar.modulemap";
-				PRODUCT_MODULE_NAME = QWTabBar;
-				PRODUCT_NAME = QWTabBar;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -722,7 +750,41 @@
 			};
 			name = Debug;
 		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		62EBEA133B64E3D21FC7CA7023E0D8A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796CD1E597A08DEE3B88919547D638C9 /* Pods-QWTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -754,8 +816,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -777,13 +837,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */ = {
+		B073834A854DB6060D2B832FA6A93A33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -795,7 +858,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -806,113 +869,13 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6E611E55B84B0BADD91909E7264DFFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEC7435BB52FB0F967B82F921330825E /* Pods-QWTabBar_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7DACA639EE7C822D589FD555BDC7FC1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392E201445D8BB1CBF4A9606307502BA /* Pods-QWTabBar_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Tests/Pods-QWTabBar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9265CFA99B8A18CCB609B4CF05A197FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED80DAF137F4B1E32D58D8A7BABF596E /* Pods-QWTabBar_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -944,8 +907,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -972,44 +933,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DD53FB1BF6B9A967B4724365DC60F293 /* Release */ = {
+		F2A9A61FD5FD3A1039BADA8B6BE8CBD8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3839A1AD8E883475BF8F8C6274F8A953 /* Masonry.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				PRODUCT_MODULE_NAME = Masonry;
-				PRODUCT_NAME = Masonry;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FC5D2158F5025AEBCB39CE12E651EBA9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 900CB179E3FE89E39539DDA536C51CEC /* QWTabBar.xcconfig */;
+			baseConfigurationReference = FCB6579A4F507927417DC4E60E595A56 /* QWTabBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1021,7 +953,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/QWTabBar/QWTabBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QWTabBar/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/QWTabBar/QWTabBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1038,55 +970,118 @@
 			};
 			name = Release;
 		};
+		F627E19735367972070F17E2DB2CB33B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011BA9A84E2462A647E33AF8B93834C6 /* Pods-QWTabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF5E0D3C9A4DBE975C383BCA3509DE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCB6579A4F507927417DC4E60E595A56 /* QWTabBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QWTabBar/QWTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QWTabBar/QWTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QWTabBar/QWTabBar.modulemap";
+				PRODUCT_MODULE_NAME = QWTabBar;
+				PRODUCT_NAME = QWTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		256B7DA9BF0950E1EEFCFF4EA851577D /* Build configuration list for PBXNativeTarget "QWTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				FF5E0D3C9A4DBE975C383BCA3509DE4E /* Debug */,
+				F2A9A61FD5FD3A1039BADA8B6BE8CBD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */,
-				DD53FB1BF6B9A967B4724365DC60F293 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9269A922E4F15BA5127FAF26C4C7CBDA /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Tests" */ = {
+		5AB29B602687F3C22869DB9133A5B3A6 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				03FB772A4D1F6881C45319464851680B /* Debug */,
-				7DACA639EE7C822D589FD555BDC7FC1F /* Release */,
+				F627E19735367972070F17E2DB2CB33B /* Debug */,
+				38C40F49E770B90415EED1F600CF39E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AECD848393EFA0F484C3223A186EDF71 /* Build configuration list for PBXNativeTarget "QWTabBar" */ = {
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4927ADB82E591CA33AC39AEEFCC18B3B /* Debug */,
-				FC5D2158F5025AEBCB39CE12E651EBA9 /* Release */,
+				58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */,
+				B073834A854DB6060D2B832FA6A93A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2D4AD9D27F95E00174A9DE50471BA33 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Example" */ = {
+		88C0F60BD973E313FE886F0980AB0B11 /* Build configuration list for PBXNativeTarget "Pods-QWTabBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9265CFA99B8A18CCB609B4CF05A197FF /* Debug */,
-				6E611E55B84B0BADD91909E7264DFFDD /* Release */,
+				01C2E4FB1B954D2766886D782F72D7F7 /* Debug */,
+				62EBEA133B64E3D21FC7CA7023E0D8A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

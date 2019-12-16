@@ -57,8 +57,6 @@ static QWTabBarController *tabbarCtl;
         [array replaceObjectAtIndex:i withObject:vc];
     }
     self.viewControllers = array;
-    self.tabBar.tintColor = [UIColor orangeColor];
-    self.tabBar.backgroundColor = [UIColor redColor];
     /*
      以下为【****】代码 哈哈哈哈哈哈
      The following code is [****]

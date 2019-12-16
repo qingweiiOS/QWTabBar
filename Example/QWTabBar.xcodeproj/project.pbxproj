@@ -326,23 +326,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/QWTabBar/QWTabBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QWTabBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QWTabBar_Example/Pods-QWTabBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A66F5C9E0917B8A2D78A9459 /* [CP] Check Pods Manifest.lock */ = {
