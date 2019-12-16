@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'QWTabBar'
-s.version          = '1.1'
+s.version          = '1.2'
 s.summary          = 'QWTabBar'
 s.description      = <<-DESC
 TODO: Add long description of the pod here.
