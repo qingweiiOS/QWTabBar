@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    [[QWTabBarController qwTabbarController].qwTabBar setBadge:10 index:4];
+    [[QWTabBarController qwTabbarController].qwTabBar setBadge:122 index:4];
 }
 
 - (void)didReceiveMemoryWarning {

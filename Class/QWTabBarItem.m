@@ -30,13 +30,10 @@
     }
     return self;
 }
-//- (void)layoutSubviews{
-//
-//
-//}
+
 - (void)createView{
     _isSelect = NO;
-//    WithFrame:CGRectMake(self.frame.size.width/2-10, 9, 20, 20)
+
     _icomImgView = [[UIImageView alloc] init];
     
     _icomImgView.contentMode = UIViewContentModeScaleAspectFit;
@@ -46,7 +43,7 @@
         make.top.mas_offset(9);
         make.width.height.mas_offset(20);
     }];
-//    WithFrame:CGRectMake(0, 35, self.frame.size.width, 14)
+
     _titleLab = [[UILabel alloc] init];
     _titleLab.textAlignment = NSTextAlignmentCenter;
     _titleLab.font = [UIFont systemFontOfSize:9];
@@ -75,4 +72,17 @@
     }
 }
 
+- (void)setBadge:(NSInteger)count{
+    
+    if(!_badgeLab){
+        _badgeLab = [[QWTabBarBadge alloc] init];
+        [self addSubview:_badgeLab];
+        [_badgeLab mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(_icomImgView.mas_right).mas_offset(0);
+            make.top.mas_offset(2);
+            make.width.height.mas_offset(18);
+        }];
+    }
+     _badgeLab.badge = count;
+}
 @end

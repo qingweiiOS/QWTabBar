@@ -10,7 +10,6 @@
 		00AD1A0DC64DFB82950B2B4D /* libPods-QWTabBarDome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A74A55B535292BFCAD2E7258 /* libPods-QWTabBarDome.a */; };
 		4D0E73FE20941A3600D0034D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E73FD20941A3600D0034D /* AppDelegate.m */; };
 		4D0E740620941A3700D0034D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E740520941A3700D0034D /* Assets.xcassets */; };
-		4D0E740920941A3700D0034D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0E740720941A3700D0034D /* LaunchScreen.storyboard */; };
 		4D0E740C20941A3700D0034D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0E740B20941A3700D0034D /* main.m */; };
 		4D13E08920A049F8003284FA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D13E08820A049F8003284FA /* TestViewController.m */; };
 		4D1F6F06209AF128004242E6 /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F6F02209AF128004242E6 /* QWTabBarItem.m */; };
@@ -24,7 +23,6 @@
 		4D0E73FC20941A3600D0034D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D0E73FD20941A3600D0034D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4D0E740520941A3700D0034D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D0E740820941A3700D0034D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D0E740A20941A3700D0034D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0E740B20941A3700D0034D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4D13E08720A049F8003284FA /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				4D1F6F00209AF128004242E6 /* QWTabBarController.h */,
 				4D1F6F04209AF128004242E6 /* QWTabBarController.m */,
 				4D0E740520941A3700D0034D /* Assets.xcassets */,
-				4D0E740720941A3700D0034D /* LaunchScreen.storyboard */,
 				4D0E740A20941A3700D0034D /* Info.plist */,
 				4D0E740B20941A3700D0034D /* main.m */,
 				4D13E08720A049F8003284FA /* TestViewController.h */,
@@ -179,7 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0E740920941A3700D0034D /* LaunchScreen.storyboard in Resources */,
 				4D0E740620941A3700D0034D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,17 +223,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4D0E740720941A3700D0034D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D0E740820941A3700D0034D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4D0E740D20941A3700D0034D /* Debug */ = {
@@ -356,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2Q8AKAV4B;
+				DEVELOPMENT_TEAM = GZZJ6MP6AM;
 				INFOPLIST_FILE = QWTabBarDome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = U2Q8AKAV4B;
+				DEVELOPMENT_TEAM = GZZJ6MP6AM;
 				INFOPLIST_FILE = QWTabBarDome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

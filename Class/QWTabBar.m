@@ -49,9 +49,6 @@
          self.frame = self.superview.bounds;
     }];
     [self pathAnimation:_selectIndex toIndex:_selectIndex];
-    
-  
-   
 }
 - (void)layoutSubviews{
      [super layoutSubviews];
@@ -65,7 +62,6 @@
     _tabBarItems = [NSMutableArray arrayWithCapacity:count];
     QWTabBarItem *temItem;
     for (int i=0;i<count;i++){
-//        WithFrame:CGRectMake(i*K_WIDTH_QW/count, 0, K_WIDTH_QW/count , 49)
         QWTabBarItem *item = [[QWTabBarItem alloc] init];
         [self addSubview:item];
         [item mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -252,17 +248,15 @@
 
 //// 对外方法
 - (void)setBadge:(NSInteger)count1 index:(NSUInteger)index{
-    QWTabBarBadge *badgeLab = [self viewWithTag:BADGETAG + index];
     if(index>_tabBarItems.count){
-        NSLog(@"设置角标  下标越界啦");
-        return;
+           NSLog(@"设置角标  下标越界啦");
+           return;
+       }
+    QWTabBarItem *tabBarItem = [self viewWithTag:ITEMTAG + index];
+    if(tabBarItem){
+        [tabBarItem setBadge:count1];
     }
-    if(!badgeLab){
-        badgeLab = [[QWTabBarBadge alloc] init];
-        badgeLab.itemCount = _tabBarItems.count;
-        badgeLab.tag = BADGETAG + index;
-        [self addSubview:badgeLab];
-    }
-    badgeLab.badge = count1;
+   
+    
 }
 @end

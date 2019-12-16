@@ -32,25 +32,28 @@
 - (void)setFrame:(CGRect)frame{
     
     [super setFrame:frame];
-     self.layer.cornerRadius = self.frame.size.height/2.0;
+   
+}
+- (void)layoutSubviews{
+    [super layoutSubviews];
+    self.layer.cornerRadius = self.frame.size.height/2.0;
 }
 - (void)setBadge:(NSInteger)badge{
     NSString *badgeStr;
     if(badge>99){
         badgeStr = @"99+";
-    }
-    else if(badge <=0){
+    }else if(badge <=0){
         self.hidden = YES;
         self.text = @"";
         return;
-    }
-    else {
+    } else {
         badgeStr = [NSString stringWithFormat:@"%ld",badge];
     }
     self.hidden = NO;
     CGFloat widths = badgeStr.length*9<18?18:badgeStr.length*9;
-    CGFloat swith = self.superview.frame.size.width/_itemCount;
-    self.frame = CGRectMake(swith/2+8+(self.tag-10086)*swith, 5, widths, 18);
+    [self mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_offset(widths);
+    }];
     self.text = badgeStr;
 }
 @end

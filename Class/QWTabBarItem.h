@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QWTabBarBadge.h"
 @interface QWTabBarItem : UIView
 @property (nonatomic, copy) NSString *title;
 /// 当前的 Image
@@ -15,4 +16,6 @@
 @property (nonatomic, assign) BOOL isSelect;
 @property (nonatomic, strong) UIImageView *icomImgView;
 @property (nonatomic, strong) UILabel *titleLab;
+@property (nonatomic, strong) QWTabBarBadge *badgeLab;
+- (void)setBadge:(NSInteger)count;
 @end
