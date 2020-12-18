@@ -7,6 +7,7 @@
 //
 
 #import "QWTabBarBadge.h"
+#import "Masonry.h"
 @implementation QWTabBarBadge
 
 /*
