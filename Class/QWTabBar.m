@@ -7,7 +7,7 @@
 //
 
 #import "QWTabBar.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 #define K_WIDTH_QW   [UIScreen mainScreen].bounds.size.width
 #define ITEMTAG 1000
 #define BADGETAG 10086

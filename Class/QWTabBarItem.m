@@ -8,7 +8,7 @@
 
 #import "QWTabBarItem.h"
 #import "QWTabBarBadge.h"
-#import "Masonry.h"
+#import <Masonry/Masonry.h>
 @interface QWTabBarItem()
 
 @end
