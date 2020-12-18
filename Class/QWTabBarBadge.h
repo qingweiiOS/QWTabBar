@@ -10,5 +10,4 @@
 #import "Masonry.h"
 @interface QWTabBarBadge : UILabel
 @property (nonatomic, assign) NSInteger badge;
-
 @end

@@ -1,9 +1,9 @@
 //
 //  QWTabBarController.m
-//  Created by jonh on 2017/8/14.
-//    Copyright © 2017年 jonh. All rights reserved.
+//  Created by xxxx on 2017/8/14.
+//    Copyright © 2017年 xxxx. All rights reserved.
 //
-//  Copyright © 2017年 jonh. All rights reserved.
+//  Copyright © 2017年 xxxx. All rights reserved.
 //
 
 #import "QWTabBarController.h"
@@ -41,15 +41,8 @@ static QWTabBarController *tabbarCtl;
     for(int i =0;i<array.count;i++)
     {
         UIViewController *vc = [[NSClassFromString(array[i]) alloc] init];
- /*
- 最好在这里不要设置与VC视图显示相关的内容）比如：背景颜色） 如果设置了，该VC的viewDidLoad 方法就会加载 这不是我们想看到的
- Don't set anything to show in the VC view here, like :(background color) if set, the viewDidLoad method of the VC will load, which is not what we want to see.
-  */
-//        vc.view.backgroundColor = [UIColor whiteColor];
-        
         /*
          如果想用系统的TabBar，解除以下3行注释 删除 【****】代码
-         if you want to use the system's TabBar, uncomment the following 3 lines and delete the [***] code
          */
 //        vc.tabBarItem.title = titles[i];
 //        vc.tabBarItem.image = [UIImage imageNamed:imgArray[i]];
@@ -58,18 +51,16 @@ static QWTabBarController *tabbarCtl;
     }
     self.viewControllers = array;
     /*
-     以下为【****】代码 哈哈哈哈哈哈
-     The following code is [****]
+     * 【****】代码
      */
     /// 将自定义的覆盖到原来的tabBar上面
-    /// Overwrite the TabBar to the TabBar of the system
     self.qwTabBar = [[QWTabBar alloc] initWithTitles:titles itemImages:imgArray selectImages:selectImageArray];
     self.qwTabBar.delegate = self;
     self.qwTabBar.tintColor = [UIColor orangeColor];
     [self.tabBar addSubview:self.qwTabBar];
 }
-/* 以下为【****】代码
-   The following code is [****]
+/*
+ * 【****】代码
  */
 - (void)selectIndex:(NSInteger)index{
     /// 通知 切换视图控制器

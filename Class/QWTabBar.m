@@ -21,13 +21,6 @@
 @end
 @implementation QWTabBar
 
-/*
- // Only override drawRect: if you perform custom drawing.
- // An empty implementation adversely affects performance during animation.
- - (void)drawRect:(CGRect)rect {
- // Drawing code
- }
- */
 - (instancetype)initWithTitles:(NSArray <NSString *> *)titles itemImages:(NSArray *)itemImgs selectImages:(NSArray *)selectImages{
     self = [super init];
     if (self) {
@@ -246,7 +239,7 @@
     _tabBarItem = tapItem;
 }
 
-//// 对外方法
+/// 对外方法
 - (void)setBadge:(NSInteger)count1 index:(NSUInteger)index{
     if(index>_tabBarItems.count){
            NSLog(@"设置角标  下标越界啦");

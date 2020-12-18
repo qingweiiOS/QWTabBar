@@ -18,7 +18,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         [self createView];
-        
     }
     return self;
 }
