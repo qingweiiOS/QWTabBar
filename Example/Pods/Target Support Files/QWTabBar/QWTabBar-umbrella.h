@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "QWTabBar.h"
-#import "QWTabBarBadge.h"
-#import "QWTabBarItem.h"
 
 FOUNDATION_EXPORT double QWTabBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char QWTabBarVersionString[];

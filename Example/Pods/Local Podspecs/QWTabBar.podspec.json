@@ -1,22 +1,22 @@
 {
   "name": "QWTabBar",
-  "version": "2.0",
-  "summary": "QWTabBar",
+  "version": "3.0",
+  "summary": "自定义TabBar",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/qingweiiOS/QWTabBar.git",
+  "homepage": "https://github.com/qingweiiOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "772053795@qq.com": "772053795@qq.com"
+    "Mr.Q": "qingwei2013@fxomail.com"
   },
   "source": {
     "git": "https://github.com/qingweiiOS/QWTabBar.git",
-    "tag": "2.0"
+    "tag": "3.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "Class/",
   "dependencies": {
