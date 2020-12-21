@@ -8,7 +8,7 @@
  
 > 具体使用看dome
 
-![TabBar.gif](https://github.com/qingweiiOS/QWTabBar/blob/master/BrowserPreview_tmp.gif)
+![TabBar.gif](https://upload-images.jianshu.io/upload_images/2342189-b0a391045b7178b3.gif?imageMogr2/auto-orient/strip)
 
 
 tabbar
