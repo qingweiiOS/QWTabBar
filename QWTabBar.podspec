@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'QWTabBar'
-s.version          = '3.0'
+s.version          = '3.0.0'
 s.summary          = '自定义TabBar'
 s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -18,6 +18,6 @@ s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Mr.Q' => 'qingwei2013@fxomail.com' }
 s.source           = { :git => 'https://github.com/qingweiiOS/QWTabBar.git', :tag => s.version.to_s }
 s.ios.deployment_target = '9.0'
-s.source_files = 'Class/'
+s.source_files = 'QWTabBar/Classes/**/*'
 s.dependency 'Masonry'
 end

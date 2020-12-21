@@ -16,6 +16,7 @@
 				0E03B62CF94A781F05EC642353B2D730 /* PBXTargetDependency */,
 			);
 			name = QWTabBar;
+			productName = QWTabBar;
 		};
 /* End PBXAggregateTarget section */
 
@@ -35,6 +36,12 @@
 		612E84D0866434B907A5CCD5B6530453 /* Pods-QWTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F2474EE9D49D40460369B6FBF8E9B5 /* Pods-QWTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		7B74435425903469005C4BFD /* QWTabBarBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74434E25903468005C4BFD /* QWTabBarBadge.m */; };
+		7B74435525903469005C4BFD /* QWTabBarBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B74434F25903468005C4BFD /* QWTabBarBadge.h */; };
+		7B74435625903469005C4BFD /* QWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74435025903468005C4BFD /* QWTabBar.m */; };
+		7B74435725903469005C4BFD /* QWTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B74435125903469005C4BFD /* QWTabBarItem.h */; };
+		7B74435825903469005C4BFD /* QWTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B74435225903469005C4BFD /* QWTabBarItem.m */; };
+		7B74435925903469005C4BFD /* QWTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B74435325903469005C4BFD /* QWTabBar.h */; };
 		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
 		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
 		8B3F42326069B535F20DD139BCDC4F4F /* Pods-QWTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB63C70974F1E50D96C23901ADA86FD /* Pods-QWTabBar_Tests-dummy.m */; };
@@ -96,12 +103,12 @@
 		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		16DD90BFC69305A98BEF35B6C6954030 /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTabBar_Tests.framework; path = "Pods-QWTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DD90BFC69305A98BEF35B6C6954030 /* Pods_QWTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18194058F3239BCEAC72E90F3ECC8B5B /* Pods-QWTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		1DD8D9A189E3CE95EAEBBF59016C18CD /* Pods-QWTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Example-dummy.m"; sourceTree = "<group>"; };
 		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288DCFC4CFFB10D855B0C78ECD37CCA0 /* Pods-QWTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2AEA9C198197E3113757FD5A1A005F77 /* Pods-QWTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -112,9 +119,15 @@
 		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		62ECD4663DF3216FF1E526A19BB2B360 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62ECD4663DF3216FF1E526A19BB2B360 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6C083047333A49D88EC7E7ECFE32F7B3 /* Pods-QWTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWTabBar_Example-Info.plist"; sourceTree = "<group>"; };
 		796CD1E597A08DEE3B88919547D638C9 /* Pods-QWTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7B74434E25903468005C4BFD /* QWTabBarBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBarBadge.m; path = QWTabBar/Classes/QWTabBarBadge.m; sourceTree = "<group>"; };
+		7B74434F25903468005C4BFD /* QWTabBarBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBarBadge.h; path = QWTabBar/Classes/QWTabBarBadge.h; sourceTree = "<group>"; };
+		7B74435025903468005C4BFD /* QWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBar.m; path = QWTabBar/Classes/QWTabBar.m; sourceTree = "<group>"; };
+		7B74435125903469005C4BFD /* QWTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBarItem.h; path = QWTabBar/Classes/QWTabBarItem.h; sourceTree = "<group>"; };
+		7B74435225903469005C4BFD /* QWTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QWTabBarItem.m; path = QWTabBar/Classes/QWTabBarItem.m; sourceTree = "<group>"; };
+		7B74435325903469005C4BFD /* QWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QWTabBar.h; path = QWTabBar/Classes/QWTabBar.h; sourceTree = "<group>"; };
 		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
@@ -123,19 +136,19 @@
 		9C4DF700C34B9950958D6162D94F15E3 /* Pods-QWTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		A24C644E760B74B348F9449FBA8D5BBE /* Pods-QWTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A492B06D92D802E8E328A925789DDD1B /* Pods-QWTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QWTabBar_Tests.modulemap"; sourceTree = "<group>"; };
 		A71612EFA6563B3E0FD2D190D86D81A8 /* QWTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWTabBar.xcconfig; sourceTree = "<group>"; };
-		AC500500EB6F0B468D11043DAB933B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AC500500EB6F0B468D11043DAB933B36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		B4F2474EE9D49D40460369B6FBF8E9B5 /* Pods-QWTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		B73536B09C7ED8F0872DD8AB45D92851 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QWTabBar_Example.framework; path = "Pods-QWTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73536B09C7ED8F0872DD8AB45D92851 /* Pods_QWTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		CAC5DE7C19C54A6C834E07C757B9B5C4 /* QWTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QWTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CAC5DE7C19C54A6C834E07C757B9B5C4 /* QWTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QWTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CDBB0C47100A4BEFC728B6879E153BE7 /* Pods-QWTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CFB63C70974F1E50D96C23901ADA86FD /* Pods-QWTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -213,6 +226,12 @@
 		54427A47E518A3575847F20217CD2100 /* QWTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				7B74435325903469005C4BFD /* QWTabBar.h */,
+				7B74435025903468005C4BFD /* QWTabBar.m */,
+				7B74434F25903468005C4BFD /* QWTabBarBadge.h */,
+				7B74434E25903468005C4BFD /* QWTabBarBadge.m */,
+				7B74435125903469005C4BFD /* QWTabBarItem.h */,
+				7B74435225903469005C4BFD /* QWTabBarItem.m */,
 				8C27829C75938799EC2E79EEBA42F004 /* Pod */,
 				AA416ABC50C2F68A44AA1C3C2C451710 /* Support Files */,
 			);
@@ -250,7 +269,6 @@
 				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
 				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -367,6 +385,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B74435525903469005C4BFD /* QWTabBarBadge.h in Headers */,
 				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
 				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
 				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
@@ -381,8 +400,10 @@
 				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
 				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
 				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				7B74435925903469005C4BFD /* QWTabBar.h in Headers */,
 				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
 				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
+				7B74435725903469005C4BFD /* QWTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +535,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				7B74435625903469005C4BFD /* QWTabBar.m in Sources */,
+				7B74435825903469005C4BFD /* QWTabBarItem.m in Sources */,
+				7B74435425903469005C4BFD /* QWTabBarBadge.m in Sources */,
 				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
 				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
 				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
@@ -755,8 +779,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
