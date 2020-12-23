@@ -7,9 +7,6 @@
 //
 
 #import "QWTabBarController.h"
-#import <Masonry.h>
-
-
 static QWTabBarController *tabbarCtl;
 @interface QWTabBarController ()
 {

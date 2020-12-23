@@ -1,0 +1,6 @@
+framework module Pods_QWTabBarDome {
+  umbrella header "Pods-QWTabBarDome-umbrella.h"
+
+  export *
+  module * { export * }
+}

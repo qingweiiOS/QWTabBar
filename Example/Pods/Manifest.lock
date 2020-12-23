@@ -1,16 +1,23 @@
 PODS:
   - Masonry (1.1.0)
+  - QWTabBar (3.0.0):
+    - Masonry
 
 DEPENDENCIES:
-  - Masonry
+  - QWTabBar (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  trunk:
     - Masonry
+
+EXTERNAL SOURCES:
+  QWTabBar:
+    :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  QWTabBar: fdc056bbe14188e4efbd7704ba143b93066467bd
 
-PODFILE CHECKSUM: 33050d0b875352b000db667fc8bc6cfbd7f0b50d
+PODFILE CHECKSUM: 935d64e0da5401e3a253a49de1ef8b497bf77024
 
 COCOAPODS: 1.8.4

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "QWTabBar.h"
+#import <QWTabBar/QWTabBar.h>
 @interface QWTabBarController: UITabBarController<QWTabBarDelegate>
 @property (nonatomic, strong) QWTabBar *qwTabBar;
 + (QWTabBarController *)qwTabbarController;
